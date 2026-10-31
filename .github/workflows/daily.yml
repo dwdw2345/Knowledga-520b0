@@ -45,5 +45,6 @@ jobs:
             echo "No changes today."
           else
             git commit -m "chore: daily kb update $(date -u +%F)"
+            git pull --rebase origin main
             git push
           fi
