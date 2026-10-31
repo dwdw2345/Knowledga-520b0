@@ -1,0 +1,49 @@
+name: Daily knowledge base
+
+on:
+  schedule:
+    # UTC 22:00 = 北京时间 06:00
+    - cron: "0 22 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sports-kb-daily
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Fetch PubMed metadata / abstracts
+        env:
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+        run: python scripts/kb_update.py --days 7 --max-per-journal 8
+
+      - name: Build knowledge base
+        run: python scripts/kb_build.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "sports-kb-bot"
+          git config user.email "sports-kb-bot@users.noreply.github.com"
+          git add data 每日更新
+          if git diff --cached --quiet; then
+            echo "No changes today."
+          else
+            git commit -m "chore: daily kb update $(date -u +%F)"
+            git push
+          fi

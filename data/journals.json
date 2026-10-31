@@ -1,0 +1,35 @@
+[
+  {"name": "Journal of Anatomy", "issn": "0021-8782", "discipline": "anatomy", "focus": "解剖学、肌骨结构、筋膜连续性"},
+  {"name": "Clinical Anatomy", "issn": "0897-3806", "discipline": "anatomy", "focus": "临床解剖、运动解剖"},
+  {"name": "Journal of Orthopaedic & Sports Physical Therapy", "issn": "0190-6011", "discipline": "anatomy", "focus": "肌骨评估、运动康复、指南"},
+  {"name": "The Anatomical Record", "issn": "1932-8486", "discipline": "anatomy", "focus": "解剖学、组织形态"},
+  {"name": "Journal of Morphology", "issn": "0362-2525", "discipline": "anatomy", "focus": "形态学、比较解剖"},
+  {"name": "Surgical and Radiologic Anatomy", "issn": "0930-1038", "discipline": "anatomy", "focus": "影像解剖、临床解剖"},
+  {"name": "Journal of Biomechanics", "issn": "0021-9290", "discipline": "anatomy", "focus": "生物力学、运动分析"},
+  {"name": "Gait & Posture", "issn": "0966-6362", "discipline": "anatomy", "focus": "步态、姿势控制"},
+
+  {"name": "Journal of Applied Physiology", "issn": "8750-7587", "discipline": "physiology", "focus": "运动生理、肌肉适应、代谢"},
+  {"name": "Medicine & Science in Sports & Exercise", "issn": "0195-9131", "discipline": "physiology", "focus": "运动生理、训练适应"},
+  {"name": "Sports Medicine", "issn": "0112-1642", "discipline": "physiology", "focus": "运动医学综述、训练/恢复"},
+  {"name": "European Journal of Applied Physiology", "issn": "1439-6319", "discipline": "physiology", "focus": "应用生理、运动表现"},
+  {"name": "Journal of Physiology", "issn": "0022-3751", "discipline": "physiology", "focus": "生理学基础、肌肉/神经"},
+  {"name": "American Journal of Physiology-Endocrinology and Metabolism", "issn": "0193-1849", "discipline": "physiology", "focus": "代谢、内分泌、肌肉"},
+  {"name": "Experimental Physiology", "issn": "0958-0670", "discipline": "physiology", "focus": "实验生理、适应机制"},
+  {"name": "Journal of Strength and Conditioning Research", "issn": "1064-8011", "discipline": "physiology", "focus": "力量训练、体能"},
+  {"name": "International Journal of Sports Physiology and Performance", "issn": "1555-0265", "discipline": "physiology", "focus": "运动表现、训练监控"},
+  {"name": "Applied Physiology, Nutrition, and Metabolism", "issn": "1715-5312", "discipline": "physiology", "focus": "应用生理、营养代谢"},
+
+  {"name": "Journal of Bodywork and Movement Therapies", "issn": "1360-8592", "discipline": "fascia", "focus": "筋膜、手法、运动治疗"},
+  {"name": "Connective Tissue Research", "issn": "0300-8207", "discipline": "fascia", "focus": "结缔组织、肌腱、筋膜生物学"},
+  {"name": "BMC Musculoskeletal Disorders", "issn": "1471-2474", "discipline": "fascia", "focus": "肌骨疾病、康复"},
+  {"name": "Physical Therapy", "issn": "0031-9023", "discipline": "fascia", "focus": "物理治疗、手法/运动治疗"},
+
+  {"name": "American Journal of Clinical Nutrition", "issn": "0002-9165", "discipline": "nutrition", "focus": "临床营养、能量代谢"},
+  {"name": "Journal of Nutrition", "issn": "0022-3166", "discipline": "nutrition", "focus": "营养科学、代谢"},
+  {"name": "Nutrients", "issn": "2072-6643", "discipline": "nutrition", "focus": "营养综述、运动营养"},
+  {"name": "International Journal of Sport Nutrition and Exercise Metabolism", "issn": "1526-484X", "discipline": "nutrition", "focus": "运动营养、补剂"},
+  {"name": "Journal of the International Society of Sports Nutrition", "issn": "1550-2783", "discipline": "nutrition", "focus": "运动营养、补剂、ISSN 立场"},
+  {"name": "European Journal of Clinical Nutrition", "issn": "0954-3007", "discipline": "nutrition", "focus": "临床营养、能量平衡"},
+  {"name": "British Journal of Nutrition", "issn": "0007-1145", "discipline": "nutrition", "focus": "营养科学、代谢"},
+  {"name": "Nutrition Reviews", "issn": "0029-6643", "discipline": "nutrition", "focus": "营养综述、证据总结"}
+]

@@ -1,0 +1,1526 @@
+{
+  "meta": {
+    "version": "0.1.0",
+    "updated": "2026-10-31",
+    "evidence_policy": "A=指南/教科书/系统综述共识；B=单项研究/机制研究/综述；C=模型/假说/临床经验/证据有限。每条笔记标注证据等级与来源；每日更新只保存原文标题/摘要/链接，不自动生成结论。",
+    "disclaimer": "本知识库用于运动科学学习与训练参考，不构成医疗诊断或治疗建议。疼痛、麻木、无力、红旗症状请先咨询医生/物理治疗师。",
+    "synthesis_policy": "自动任务负责抓取、去重、归档与索引；跨学科综述由智能体基于来源整理，并标注证据等级。不会用无来源的生成内容替代原始文献。"
+  },
+  "disciplines": [
+    {
+      "id": "anatomy",
+      "name": "运动解剖学",
+      "icon": "🦴",
+      "intro": "从骨骼、关节、肌肉与神经出发，理解动作如何产生、力如何传递、哪些结构在承担负荷。",
+      "notes": [
+        {
+          "id": "scapula",
+          "title": "肩胛骨与肩胛胸壁",
+          "summary": "肩胛骨是肩带的活动平台：它通过肩胛胸壁在胸廓上滑动，并由前锯肌、斜方肌、菱形肌、肩胛提肌等协同完成上回旋、后缩、前伸和稳定。盂肱关节的稳定还依赖肩袖。",
+          "points": [
+            "上回旋：前锯肌 + 下斜方肌；下回旋：菱形肌 + 肩胛提肌 + 上斜方肌。",
+            "胸椎伸展/旋转不足会改变肩胛上回旋，影响过顶与推拉动作。",
+            "肩胛运动障碍是观察，不是诊断；疼痛是多因素的。",
+            "评估可看：肩胛观察、墙面滑手、肩胛俯卧撑、胸椎旋转，并结合负荷史。"
+          ],
+          "evidence": "A",
+          "sources": [
+            "Neumann DA. Kinesiology of the Musculoskeletal System, 3rd ed.",
+            "Gray's Anatomy, 41st ed.",
+            "JOSPT Clinical Practice Guidelines (shoulder/neck)."
+          ],
+          "related": [
+            "bench-scapular-medial",
+            "spine-core",
+            "myofascial-lines"
+          ],
+          "tags": [
+            "肩胛",
+            "肩",
+            "推拉"
+          ]
+        },
+        {
+          "id": "hip",
+          "title": "髋关节与髋铰链",
+          "summary": "髋关节是球窝关节，承担负重与力传递；髋伸由臀大肌/腘绳肌，髋外展与骨盆稳定由臀中肌，髋屈由髂腰肌/股直肌等。髋铰链是髋主导、脊柱中立的动作模式。",
+          "points": [
+            "髋活动度（屈/伸/内外旋）影响深蹲、硬拉、步态与腰椎负荷。",
+            "臀中肌负责单腿站立/步态骨盆稳定；无力常与膝/腰代偿相关。",
+            "“髋屈肌紧”不一定是短缩，可能是保护性紧张；拉伸不是唯一解。",
+            "训练：髋铰链、分腿蹲、单腿罗马尼亚硬拉、侧向走；渐进负荷。"
+          ],
+          "evidence": "A",
+          "sources": [
+            "Neumann DA. Kinesiology of the Musculoskeletal System, 3rd ed.",
+            "Gray's Anatomy, 41st ed.",
+            "JOSPT Clinical Practice Guidelines (hip)."
+          ],
+          "related": [
+            "knee",
+            "spine-core",
+            "force-transmission"
+          ],
+          "tags": [
+            "髋",
+            "臀肌",
+            "深蹲",
+            "硬拉"
+          ]
+        },
+        {
+          "id": "knee",
+          "title": "膝关节：胫股与髌股",
+          "summary": "膝关节由胫股和髌股关节组成；股四头肌通过髌骨/髌腱伸膝，臀肌与足踝影响下肢力线。髌股疼痛与负荷、股四头/臀肌力量、疼痛敏感相关，不是单纯“磨损”。",
+          "points": [
+            "髌股关节对负荷敏感；逐步增加屈膝角度和训练量。",
+            "股四头/臀肌力量是髌股疼痛的一线；髋/踝活动度也要看。",
+            "“膝盖不能过脚尖”是误区；控制负荷和动作质量更重要。",
+            "红旗：交锁、明显肿胀、不能负重、发热、外伤后畸形。"
+          ],
+          "evidence": "A",
+          "sources": [
+            "Neumann DA. Kinesiology of the Musculoskeletal System, 3rd ed.",
+            "JOSPT Clinical Practice Guideline: Patellofemoral Pain (2019).",
+            "Gray's Anatomy, 41st ed."
+          ],
+          "related": [
+            "hip",
+            "force-transmission",
+            "recovery"
+          ],
+          "tags": [
+            "膝",
+            "髌股",
+            "跑跳"
+          ]
+        },
+        {
+          "id": "spine-core",
+          "title": "脊柱稳定与核心",
+          "summary": "脊柱稳定由被动结构（椎体/韧带）、主动结构（多裂肌、腹壁、膈肌、盆底）和神经控制共同完成；胸腰筋膜参与力传递。核心训练的目标是抗伸展、抗旋转、抗侧屈和呼吸-腹压协调。",
+          "points": [
+            "核心不是“练腹肌”，而是躯干稳定与力传递。",
+            "呼吸/膈肌/盆底协调影响腹内压与腰椎稳定。",
+            "大多数腰痛不需要影像；保持活动 + 力量 + 疼痛教育是一线。",
+            "红旗：鞍区麻木、大小便障碍、发热、夜间痛、进行性无力。"
+          ],
+          "evidence": "A",
+          "sources": [
+            "Hartvigsen J, et al. Lancet Low Back Pain Series, 2018.",
+            "NICE NG59. Low back pain and sciatica.",
+            "Neumann DA. Kinesiology of the Musculoskeletal System, 3rd ed."
+          ],
+          "related": [
+            "hip",
+            "myofascial-lines",
+            "recovery"
+          ],
+          "tags": [
+            "核心",
+            "腰痛",
+            "呼吸"
+          ]
+        },
+        {
+          "id": "shoulder-complex",
+          "title": "肩复合体：盂肱、肩胛胸壁与肩袖",
+          "summary": "肩不是单一关节：盂肱关节负责大范围活动，肩胛胸壁提供活动平台，肩锁/胸锁关节参与微动；肩袖在活动中提供压缩与稳定。过顶动作需要胸椎、肩胛、肩袖协同。",
+          "points": [
+            "肩袖四肌：冈上、冈下、小圆、肩胛下；稳定肱骨头。",
+            "肩胛上回旋由前锯肌+下斜方主导；肩肱节律约 2:1（个体差异）。",
+            "胸椎伸展/旋转不足会迫使肩胛/盂肱代偿。",
+            "评估：疼痛弧、外旋/内旋力量、肩胛观察、胸椎活动。"
+          ],
+          "evidence": "A",
+          "sources": [
+            "Neumann DA. Kinesiology of the Musculoskeletal System, 3rd ed.",
+            "Gray's Anatomy, 41st ed.",
+            "JOSPT Clinical Practice Guidelines (shoulder)."
+          ],
+          "related": [
+            "scapula",
+            "tendon-ligament",
+            "bench-scapular-medial"
+          ],
+          "tags": [
+            "肩",
+            "肩袖",
+            "过顶"
+          ]
+        },
+        {
+          "id": "elbow-wrist",
+          "title": "肘与腕：屈伸、旋前旋后与肌腱",
+          "summary": "肘关节完成屈伸，前臂完成旋前旋后；肱二头肌/肱肌/肱三头肌与腕屈伸肌群共同参与推拉与握持。外上髁是腕伸肌起点，内上髁是腕屈肌起点，肌腱病与负荷相关。",
+          "points": [
+            "外上髁痛（网球肘）多与腕伸肌/握力负荷相关；内上髁相反。",
+            "腕中立位握力更强；腕伸肌离心训练是常用康复。",
+            "肘/腕活动度影响卧推、划船、推举。",
+            "评估：抗阻伸腕/屈腕、握力、肘关节活动度。"
+          ],
+          "evidence": "A",
+          "sources": [
+            "Neumann DA. Kinesiology of the Musculoskeletal System, 3rd ed.",
+            "Gray's Anatomy, 41st ed.",
+            "JOSPT Clinical Practice Guidelines (elbow)."
+          ],
+          "related": [
+            "tendon-ligament",
+            "muscle-architecture"
+          ],
+          "tags": [
+            "肘",
+            "腕",
+            "握力",
+            "肌腱"
+          ]
+        },
+        {
+          "id": "ankle-foot",
+          "title": "踝与足：背屈、足弓与推进",
+          "summary": "踝关节负责背屈/跖屈，距下关节负责内外翻；足弓由骨、韧带、足底筋膜和足内在肌共同维持。小腿三头肌推进，胫后肌维持内侧纵弓，腓骨肌提供外侧稳定。",
+          "points": [
+            "踝背屈约 10–20°（屈膝）；不足会影响深蹲/弓步/跑。",
+            "提踵训练小腿；短足训练足内在肌；单腿平衡训练本体感觉。",
+            "无症状扁平足不需要“矫正”；有症状先评估负荷/鞋具。",
+            "评估：靠墙踝背屈、提踵、单腿平衡、足弓观察。"
+          ],
+          "evidence": "A",
+          "sources": [
+            "Neumann DA. Kinesiology of the Musculoskeletal System, 3rd ed.",
+            "Gray's Anatomy, 41st ed.",
+            "JOSPT Clinical Practice Guidelines (ankle)."
+          ],
+          "related": [
+            "gait-running",
+            "plantar-fascia"
+          ],
+          "tags": [
+            "踝",
+            "足",
+            "足弓"
+          ]
+        },
+        {
+          "id": "pelvis-sacrum",
+          "title": "骨盆与骶髂：力传递与稳定",
+          "summary": "骨盆环由髋骨、骶骨与骶髂关节组成；骶髂关节微动，稳定依赖韧带、臀肌、腹壁、盆底与胸腰筋膜。骨盆是下肢与躯干之间力传递的枢纽。",
+          "points": [
+            "臀大肌/臀中肌、腹壁、盆底共同参与骨盆稳定。",
+            "骨盆前倾/后倾是描述，不是诊断；疼痛多因素。",
+            "产后/盆底问题先做专业评估。",
+            "评估：单腿站立、臀肌力量、髋活动度、SIJ 集群（需专业）。"
+          ],
+          "evidence": "A/B",
+          "sources": [
+            "Neumann DA. Kinesiology of the Musculoskeletal System, 3rd ed.",
+            "Vleeming A, et al. Movement, Stability & Lumbopelvic Pain.",
+            "Gray's Anatomy, 41st ed."
+          ],
+          "related": [
+            "spine-core",
+            "hip",
+            "low-back-sitting"
+          ],
+          "tags": [
+            "骨盆",
+            "骶髂",
+            "盆底"
+          ]
+        },
+        {
+          "id": "muscle-architecture",
+          "title": "肌肉架构：羽状角、纤维长度与力臂",
+          "summary": "肌肉的生理横截面积影响最大力，纤维长度/羽状角影响速度与力量-长度关系，力臂影响关节力矩。不同动作会改变肌肉受力角度与长度，训练选择要匹配目标。",
+          "points": [
+            "羽状肌（如股四头）力量大、速度相对低；长纤维肌速度更快。",
+            "力臂随关节角度变化；深蹲/硬拉/腿举的力矩不同。",
+            "个体解剖差异大，不要用单一“标准动作”套所有人。",
+            "评估：动作舒适度、力量曲线、关节活动度。"
+          ],
+          "evidence": "A/B",
+          "sources": [
+            "Neumann DA. Kinesiology of the Musculoskeletal System, 3rd ed.",
+            "Lieber RL. Skeletal Muscle Structure, Function & Plasticity."
+          ],
+          "related": [
+            "hypertrophy",
+            "motor-units"
+          ],
+          "tags": [
+            "肌肉",
+            "力臂",
+            "动作选择"
+          ]
+        },
+        {
+          "id": "tendon-ligament",
+          "title": "肌腱与韧带：传递、储能与稳定",
+          "summary": "肌腱把肌肉力传到骨骼，可储存/释放弹性能力；韧带限制关节过度活动并提供本体感觉。两者都是结缔组织，适应比肌肉慢，负荷管理是关键。",
+          "points": [
+            "肌腱病通常是负荷相关，不是单纯“发炎”；渐进负荷是主线。",
+            "韧带损伤分度；急性期保护，随后恢复活动度/力量/本体感觉。",
+            "肌腱/韧带适应需要数周–数月；不要突然加量。",
+            "红旗：明显肿胀、不能负重、关节不稳、交锁。"
+          ],
+          "evidence": "A",
+          "sources": [
+            "Neumann DA. Kinesiology of the Musculoskeletal System, 3rd ed.",
+            "JOSPT Clinical Practice Guidelines.",
+            "Brukner P, Khan K. Clinical Sports Medicine, 5th ed."
+          ],
+          "related": [
+            "force-transmission",
+            "knee",
+            "fascial-adaptation"
+          ],
+          "tags": [
+            "肌腱",
+            "韧带",
+            "结缔组织"
+          ]
+        },
+        {
+          "id": "thoracic-ribcage",
+          "title": "胸椎与胸廓：呼吸与肩胛的平台",
+          "summary": "胸椎、肋骨与胸骨构成胸廓；胸椎伸展/旋转影响肩胛上回旋与过顶动作，肋骨运动参与呼吸。久坐、胸椎僵硬会限制肩/颈。",
+          "points": [
+            "胸椎伸展/旋转不足常与肩胛/肩代偿相关。",
+            "呼吸时肋骨应向前后左右扩张；过度胸式呼吸可能影响颈肩。",
+            "训练：胸椎旋转、伸展、呼吸练习；避免暴力扳动。",
+            "评估：坐姿胸椎旋转、仰卧呼吸、肩胛观察。"
+          ],
+          "evidence": "A/B",
+          "sources": [
+            "Neumann DA. Kinesiology of the Musculoskeletal System, 3rd ed.",
+            "Gray's Anatomy, 41st ed.",
+            "JOSPT Clinical Practice Guidelines (neck/shoulder)."
+          ],
+          "related": [
+            "scapula",
+            "spine-core"
+          ],
+          "tags": [
+            "胸椎",
+            "胸廓",
+            "呼吸"
+          ]
+        },
+        {
+          "id": "gait-running",
+          "title": "步态与跑步：支撑、摆动与负荷",
+          "summary": "步态周期分为支撑相与摆动相；髋、膝、踝协同吸收与推进。跑步时地面反作用力、步频、步幅、鞋具和跑量共同决定负荷。",
+          "points": [
+            "臀肌/小腿/足内在肌参与吸收与推进；力量是基础。",
+            "跑量增加遵循渐进原则；突然加量是常见诱因。",
+            "步频/步幅调整可改变关节负荷，但不是人人需要改。",
+            "评估：单腿蹲、提踵、髋外展、跑姿观察。"
+          ],
+          "evidence": "A/B",
+          "sources": [
+            "Neumann DA. Kinesiology of the Musculoskeletal System, 3rd ed.",
+            "Brukner P, Khan K. Clinical Sports Medicine, 5th ed."
+          ],
+          "related": [
+            "ankle-foot",
+            "knee",
+            "hip"
+          ],
+          "tags": [
+            "步态",
+            "跑步",
+            "负荷"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physiology",
+      "name": "运动生理学",
+      "icon": "🫀",
+      "intro": "理解肌肉、神经、能量系统与恢复如何对训练刺激作出适应，以及为什么“练多少、练多频、怎么恢复”决定结果。",
+      "notes": [
+        {
+          "id": "hypertrophy",
+          "title": "肌肥大：机械张力与蛋白平衡",
+          "summary": "肌肥大主要由机械张力驱动，代谢应激和肌肉损伤是辅助因素；训练后肌肉蛋白合成升高，长期净蛋白平衡决定增长。个体差异大，增长慢。",
+          "points": [
+            "渐进超负荷；每个肌群每周约 10–20 组有效容量（因人而异）。",
+            "蛋白质 1.6–2.2 g/kg/d；热量充足或轻度盈余。",
+            "睡眠/恢复不足会抵消训练刺激；避免过量有氧影响恢复。",
+            "新手/中级每月肌肉增长有限，体重上涨通常包含脂肪。"
+          ],
+          "evidence": "A/B",
+          "sources": [
+            "ACSM's Guidelines for Exercise Testing and Prescription, 11th ed.",
+            "Schoenfeld BJ, et al. Strength and hypertrophy adaptations. J Appl Physiol / Sports Med.",
+            "ISSN Position Stand: Protein and Exercise (2017)."
+          ],
+          "related": [
+            "protein",
+            "recovery",
+            "neural-adaptation"
+          ],
+          "tags": [
+            "增肌",
+            "肌肥大",
+            "容量"
+          ]
+        },
+        {
+          "id": "neural-adaptation",
+          "title": "力量增长的神经适应",
+          "summary": "力量增长的早期（数周）主要来自神经适应：运动单位募集增加、放电频率提高、拮抗肌抑制减少、协同改善；肌肥大需要更长时间。",
+          "points": [
+            "技术学习/动作模式决定早期力量表现。",
+            "力量测试进步不等于肌肉增长；不要只看体重。",
+            "大重量低次数与中等次数都可增力，专项性不同。",
+            "主项组间休息 2–3 分钟，保证质量。"
+          ],
+          "evidence": "A/B",
+          "sources": [
+            "Guyton & Hall. Textbook of Medical Physiology, 14th ed.",
+            "ACSM's Guidelines for Exercise Testing and Prescription, 11th ed.",
+            "Journal of Applied Physiology / MSSE reviews."
+          ],
+          "related": [
+            "hypertrophy",
+            "energy-systems",
+            "recovery"
+          ],
+          "tags": [
+            "力量",
+            "神经",
+            "训练"
+          ]
+        },
+        {
+          "id": "energy-systems",
+          "title": "能量系统与训练强度",
+          "summary": "ATP-PC 供能约 0–10 秒，糖酵解约 10 秒–2 分钟，氧化系统供能长时低强度；训练强度/间歇决定主要系统。",
+          "points": [
+            "力量/爆发：ATP-PC；组间 2–3 分钟。",
+            "增肌训练：糖酵解/混合；30–90 秒休息常见。",
+            "有氧：氧化系统；zone 2 可说话但不能唱歌。",
+            "“燃脂心率”不是魔法；总能量平衡更重要。"
+          ],
+          "evidence": "A",
+          "sources": [
+            "Guyton & Hall. Textbook of Medical Physiology, 14th ed.",
+            "ACSM's Guidelines for Exercise Testing and Prescription, 11th ed."
+          ],
+          "related": [
+            "carbs",
+            "recovery",
+            "hypertrophy"
+          ],
+          "tags": [
+            "能量系统",
+            "有氧",
+            "间歇"
+          ]
+        },
+        {
+          "id": "recovery",
+          "title": "恢复、疲劳与超量恢复",
+          "summary": "训练是刺激，恢复才是适应；睡眠、蛋白质、总热量、压力管理、deload 决定恢复。疲劳积累会降低表现和动作质量。",
+          "points": [
+            "睡眠 7–9 小时；规律作息。",
+            "训练后 24–48 小时酸痛常见；持续加重或关节痛要调整。",
+            "每 6–8 周 deload，或按表现/疲劳减量。",
+            "HRV/静息心率/主观精力可辅助，但不要过度依赖。"
+          ],
+          "evidence": "A/B",
+          "sources": [
+            "ACSM's Guidelines for Exercise Testing and Prescription, 11th ed.",
+            "Sports Medicine / J Appl Physiol recovery reviews."
+          ],
+          "related": [
+            "hypertrophy",
+            "protein",
+            "energy-balance"
+          ],
+          "tags": [
+            "恢复",
+            "疲劳",
+            "睡眠"
+          ]
+        },
+        {
+          "id": "motor-units",
+          "title": "运动单位、肌纤维类型与募集",
+          "summary": "运动单位由 α 运动神经元与其支配的肌纤维组成；肌纤维大致分 I（慢肌）与 II（快肌）。按 Henneman 大小原则，低强度先募集小运动单位，高强度/快速动作逐步募集大运动单位。",
+          "points": [
+            "力量训练同时依赖募集数量与放电频率。",
+            "低负荷高次数可增肌，但接近力竭才充分募集高阈值单位。",
+            "肌纤维类型可塑性有限；训练专项性影响表现。",
+            "评估：力量-速度、疲劳曲线、动作质量。"
+          ],
+          "evidence": "A",
+          "sources": [
+            "Guyton & Hall. Textbook of Medical Physiology, 14th ed.",
+            "Enoka RM. Neuromechanics of Human Movement."
+          ],
+          "related": [
+            "neural-adaptation",
+            "hypertrophy",
+            "muscle-architecture"
+          ],
+          "tags": [
+            "运动单位",
+            "肌纤维",
+            "募集"
+          ]
+        },
+        {
+          "id": "vo2max-cardio",
+          "title": "VO₂max 与有氧能力",
+          "summary": "VO₂max = 心输出量 × 动静脉氧差，受中枢（心搏量、血容量）和外周（毛细血管、线粒体、氧化酶）因素限制。有氧训练提高心肺与代谢能力。",
+          "points": [
+            "zone 2 打基础；高强度间歇提高 VO₂max，但恢复成本高。",
+            "有氧能力与健康、恢复、训练容量相关。",
+            "个体差异大；不要只看手表估算。",
+            "评估：场地测试/实验室；结合静息心率、配速/功率。"
+          ],
+          "evidence": "A",
+          "sources": [
+            "ACSM's Guidelines for Exercise Testing and Prescription, 11th ed.",
+            "Guyton & Hall. Textbook of Medical Physiology, 14th ed."
+          ],
+          "related": [
+            "energy-systems",
+            "lactate-threshold",
+            "concurrent-training"
+          ],
+          "tags": [
+            "VO2max",
+            "有氧",
+            "心肺"
+          ]
+        },
+        {
+          "id": "lactate-threshold",
+          "title": "乳酸阈与训练区",
+          "summary": "乳酸是糖酵解产物也是燃料/信号，不是“疲劳毒素”。乳酸阈（LT1/LT2）描述血乳酸开始上升/快速上升的强度，用于划分训练区。",
+          "points": [
+            "LT1 附近可长时间维持；LT2 附近接近“临界速度”。",
+            "zone 2 训练提高脂肪氧化/有氧基础；阈值训练提高耐受力。",
+            "乳酸值受采血/设备影响，不能只看单次数值。",
+            "评估：递增负荷测试、配速/功率曲线、主观用力。"
+          ],
+          "evidence": "A/B",
+          "sources": [
+            "ACSM's Guidelines for Exercise Testing and Prescription, 11th ed.",
+            "Journal of Applied Physiology reviews."
+          ],
+          "related": [
+            "vo2max-cardio",
+            "energy-systems"
+          ],
+          "tags": [
+            "乳酸",
+            "阈值",
+            "训练区"
+          ]
+        },
+        {
+          "id": "muscle-damage-doms",
+          "title": "肌肉损伤与 DOMS",
+          "summary": "不习惯的离心/高强度运动可造成微损伤与延迟性肌肉酸痛（DOMS），常在 24–72 小时达峰；重复同样刺激会减弱反应（重复效应）。DOMS 不是乳酸堆积。",
+          "points": [
+            "渐进增加负荷/次数，尤其离心动作。",
+            "轻活动、睡眠、蛋白质、热量支持恢复。",
+            "DOMS 期间可训练其他部位或降低强度；锐痛/关节痛要区分。",
+            "不是“越酸越有效”。"
+          ],
+          "evidence": "A/B",
+          "sources": [
+            "ACSM's Guidelines for Exercise Testing and Prescription, 11th ed.",
+            "Sports Medicine reviews on DOMS."
+          ],
+          "related": [
+            "recovery",
+            "hypertrophy"
+          ],
+          "tags": [
+            "DOMS",
+            "离心",
+            "恢复"
+          ]
+        },
+        {
+          "id": "concurrent-training",
+          "title": "同期训练：力量与有氧的干扰",
+          "summary": "力量与有氧同周期训练可能产生干扰效应（AMPK/mTOR 等），但取决于剂量、顺序、恢复与训练水平；合理安排可以共存。",
+          "points": [
+            "同一天训练时，力量放前面；有氧用低强度/短时。",
+            "避免高强度有氧紧接大重量下肢训练。",
+            "蛋白质/热量充足、睡眠足够可减轻干扰。",
+            "目标优先：增肌期少做大量 HIIT；耐力期保留力量。"
+          ],
+          "evidence": "B",
+          "sources": [
+            "MSSE / Journal of Applied Physiology concurrent training reviews.",
+            "ACSM's Guidelines for Exercise Testing and Prescription, 11th ed."
+          ],
+          "related": [
+            "vo2max-cardio",
+            "hypertrophy",
+            "recovery"
+          ],
+          "tags": [
+            "同期训练",
+            "有氧",
+            "干扰"
+          ]
+        },
+        {
+          "id": "heat-hydration",
+          "title": "热环境、出汗与水合",
+          "summary": "运动时产热增加，靠出汗蒸发散热；脱水会降低血容量、心搏量与表现，严重时中暑。热适应（1–2 周）提高出汗效率与血浆容量。",
+          "points": [
+            "失水约 2% 体重即可影响表现；训练前后称重可估算出汗率。",
+            "长时间/大量出汗补电解质（钠）；不要只喝大量白水。",
+            "热适应循序渐进；高温下降低强度/缩短时长。",
+            "红旗：意识模糊、停止出汗、高热——立即降温就医。"
+          ],
+          "evidence": "A/B",
+          "sources": [
+            "ACSM's Guidelines for Exercise Testing and Prescription, 11th ed.",
+            "Guyton & Hall. Textbook of Medical Physiology, 14th ed."
+          ],
+          "related": [
+            "hydration-electrolytes",
+            "recovery"
+          ],
+          "tags": [
+            "热",
+            "水合",
+            "电解质"
+          ]
+        },
+        {
+          "id": "detraining",
+          "title": "停训与重返训练",
+          "summary": "停训后神经/肌肉/有氧能力会下降，但下降速度不同：有氧与耐力下降较快，力量/肌肉保留较久；重返训练需要渐进，不能直接回到原量。",
+          "points": [
+            "1–2 周主要影响神经/技术；4 周以上肌肉/有氧更明显。",
+            "停训期间可做少量维持训练（力量/步行）。",
+            "重返：先降 30–50% 量，2–3 周加回。",
+            "不要用“补课”方式一次练太多。"
+          ],
+          "evidence": "A/B",
+          "sources": [
+            "ACSM's Guidelines for Exercise Testing and Prescription, 11th ed.",
+            "Sports Medicine detraining reviews."
+          ],
+          "related": [
+            "recovery",
+            "hypertrophy",
+            "vo2max-cardio"
+          ],
+          "tags": [
+            "停训",
+            "重返",
+            "减量"
+          ]
+        },
+        {
+          "id": "warm-up-potentiation",
+          "title": "热身与后激活增强（PAP）",
+          "summary": "热身提高体温、神经驱动与组织顺应性；高强度预激活可产生后激活增强（PAP），但需要合适强度与恢复，否则变成疲劳。",
+          "points": [
+            "一般热身 5–10 分钟 + 动态活动 + 专项 ramp-up。",
+            "PAP：大重量/爆发预激活后休息数分钟，再做专项表现。",
+            "普通健身者不必追求复杂 PAP；做好 ramp-up 即可。",
+            "热身不足/过度都会影响表现。"
+          ],
+          "evidence": "B",
+          "sources": [
+            "Journal of Strength and Conditioning Research reviews.",
+            "ACSM's Guidelines for Exercise Testing and Prescription, 11th ed."
+          ],
+          "related": [
+            "neural-adaptation",
+            "recovery"
+          ],
+          "tags": [
+            "热身",
+            "PAP",
+            "表现"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fascia",
+      "name": "筋膜学",
+      "icon": "🧵",
+      "intro": "筋膜是结缔组织网络，参与力传递、滑动、感觉与机械转导。这里把“筋膜链”当作模型使用，不把它当诊断标准。",
+      "notes": [
+        {
+          "id": "fascia-basics",
+          "title": "筋膜的结构与功能",
+          "summary": "筋膜是遍布全身的结缔组织网络（胶原、弹性蛋白、基质、成纤维细胞等），包裹肌肉、器官、神经和血管；它参与力传递、滑动、感觉和机械转导。它不是一层“膜”，也不是万能解释。",
+          "points": [
+            "筋膜有连续性、滑动性和黏弹性；长期负荷可改变其性质。",
+            "筋膜含伤害感受器，但“筋膜粘连”不是所有疼痛的原因。",
+            "手法/拉伸可短期改善 ROM/疼痛，长期结构改变证据有限。",
+            "证据等级 B/C；避免“筋膜刀/整骨万能”说法。"
+          ],
+          "evidence": "B/C",
+          "sources": [
+            "Myers TW. Anatomy Trains, 4th ed.",
+            "Findley TW, Schleip R. Fascia Research.",
+            "Journal of Bodywork and Movement Therapies."
+          ],
+          "related": [
+            "myofascial-lines",
+            "force-transmission",
+            "fascia-training"
+          ],
+          "tags": [
+            "筋膜",
+            "结缔组织",
+            "机械转导"
+          ]
+        },
+        {
+          "id": "myofascial-lines",
+          "title": "肌筋膜链（解剖列车）",
+          "summary": "解剖列车用肌筋膜链描述身体连续性：浅背线、浅前线、侧线、螺旋线、深前线、臂线等。它是描述性模型，不是已被证实的独立解剖结构。",
+          "points": [
+            "浅背线：足底→小腿→腘绳→竖脊肌→颅顶；与后链相关。",
+            "深前线：舌→颈深→胸→腰大肌→盆底→内收肌→胫骨后肌。",
+            "臂线：胸/背→肩→臂；与推拉/过顶相关。",
+            "用链条思考训练，但不要用它做诊断。"
+          ],
+          "evidence": "C",
+          "sources": [
+            "Myers TW. Anatomy Trains, 4th ed.",
+            "Journal of Anatomy / Connective Tissue Research (fascia continuity)."
+          ],
+          "related": [
+            "fascia-basics",
+            "force-transmission",
+            "bench-scapular-medial"
+          ],
+          "tags": [
+            "筋膜链",
+            "解剖列车",
+            "模型"
+          ]
+        },
+        {
+          "id": "force-transmission",
+          "title": "筋膜的力传递与弹性",
+          "summary": "肌腱/筋膜/腱膜把肌肉产生的力传到骨骼和相邻结构；弹性组织可储存/释放能量（如跳跃、跑步）。刚度/顺应性受负荷和训练影响，但适应较慢。",
+          "points": [
+            "力量训练提高肌腱刚度/耐受；渐进负荷。",
+            "弹性训练（跳跃/落地）提高拉长-缩短周期效率；需要基础力量。",
+            "拉伸增加 ROM，但不一定改变肌腱结构。",
+            "疼痛/损伤时管理负荷，而不是只拉筋。"
+          ],
+          "evidence": "B",
+          "sources": [
+            "Myers TW. Anatomy Trains, 4th ed.",
+            "Journal of Applied Physiology / MSSE tendon adaptation reviews."
+          ],
+          "related": [
+            "fascia-basics",
+            "knee",
+            "hip"
+          ],
+          "tags": [
+            "力传递",
+            "肌腱",
+            "弹性"
+          ]
+        },
+        {
+          "id": "fascia-training",
+          "title": "筋膜训练与手法证据",
+          "summary": "泡沫轴、手法、拉伸可短期改善活动度和疼痛感知，但“打破粘连/排毒”缺乏证据；长期改变需要力量+负荷+时间。",
+          "points": [
+            "泡沫轴 30–60 秒/部位，疼痛 3/10 以内。",
+            "拉伸 30–60 秒；训练前动态、训练后静态。",
+            "力量训练是改变组织耐受的主线。",
+            "手法是辅助，不是替代。"
+          ],
+          "evidence": "B/C",
+          "sources": [
+            "Myers TW. Anatomy Trains, 4th ed.",
+            "Journal of Bodywork and Movement Therapies.",
+            "JOSPT / BJSM manual therapy reviews."
+          ],
+          "related": [
+            "fascia-basics",
+            "recovery",
+            "knee"
+          ],
+          "tags": [
+            "泡沫轴",
+            "拉伸",
+            "手法"
+          ]
+        },
+        {
+          "id": "fascial-nociception",
+          "title": "筋膜的神经支配与疼痛",
+          "summary": "筋膜含 Aδ/C 纤维、交感神经末梢与感受器，可能参与伤害感受与疼痛敏化；但疼痛是多因素的，不能把“筋膜粘连”当作所有疼痛的原因。",
+          "points": [
+            "筋膜疼痛可表现为弥散、牵涉、压痛；需排除神经/关节/内脏。",
+            "手法/针刺短期可能调节疼痛感知，长期结构改变证据有限。",
+            "疼痛教育+渐进负荷仍是主线。",
+            "证据 B/C；避免“筋膜粘连必须松开”的绝对说法。"
+          ],
+          "evidence": "B/C",
+          "sources": [
+            "Findley TW, Schleip R. Fascia Research.",
+            "Journal of Bodywork and Movement Therapies."
+          ],
+          "related": [
+            "fascia-basics",
+            "myofascial-release"
+          ],
+          "tags": [
+            "筋膜",
+            "疼痛",
+            "神经"
+          ]
+        },
+        {
+          "id": "thoracolumbar-fascia",
+          "title": "胸腰筋膜与腰-臀力传递",
+          "summary": "胸腰筋膜（TLF）是多层结缔组织，连接背阔肌、臀大肌、腹壁、竖脊肌与骶骨；它参与躯干-下肢力传递与腰椎稳定，但具体机制仍有争议。",
+          "points": [
+            "TLF 分层（前/中/后层），与腹内压、核心稳定相关。",
+            "背阔肌-臀大肌链在硬拉/深蹲/行走中参与力传递。",
+            "训练：髋铰链、核心抗旋转、臀肌力量；不要只“松筋膜”。",
+            "证据 B/C；腰痛多因素。"
+          ],
+          "evidence": "B/C",
+          "sources": [
+            "Vleeming A, et al. Movement, Stability & Lumbopelvic Pain.",
+            "Findley TW, Schleip R. Fascia Research.",
+            "Neumann DA. Kinesiology of the Musculoskeletal System, 3rd ed."
+          ],
+          "related": [
+            "spine-core",
+            "hip",
+            "myofascial-lines"
+          ],
+          "tags": [
+            "胸腰筋膜",
+            "腰痛",
+            "核心"
+          ]
+        },
+        {
+          "id": "plantar-fascia",
+          "title": "足底筋膜与足弓",
+          "summary": "足底筋膜从跟骨到趾骨，维持内侧纵弓并在步态中参与“绞盘机制”（windlass）；足底筋膜炎通常与负荷、足弓/小腿/足内在肌相关。",
+          "points": [
+            "典型：晨起第一步/久坐后第一步足跟痛。",
+            "小腿拉伸、足底筋膜拉伸、提踵、短足、负荷管理。",
+            "鞋具/足弓支撑短期可辅助；无症状扁平足不需处理。",
+            "红旗：红肿热痛、发热、糖尿病足、不能负重。"
+          ],
+          "evidence": "B",
+          "sources": [
+            "JOSPT Clinical Practice Guidelines (plantar heel pain).",
+            "Brukner P, Khan K. Clinical Sports Medicine, 5th ed."
+          ],
+          "related": [
+            "ankle-foot",
+            "fascia-training"
+          ],
+          "tags": [
+            "足底筋膜",
+            "足弓",
+            "足跟痛"
+          ]
+        },
+        {
+          "id": "iliotibial-band",
+          "title": "髂胫束：结构、争议与负荷",
+          "summary": "髂胫束是阔筋膜张肌/臀肌筋膜延续的厚腱膜，不是可随意拉长的“筋”；髂胫束综合征更与跑量、髋控制、膝外侧负荷相关。",
+          "points": [
+            "臀中肌/髋外展控制、跑量、步频/步幅是常见因素。",
+            "暴力滚压/拉伸 ITB 证据有限，可能刺激局部。",
+            "训练：臀中肌、单腿控制、逐步加跑量。",
+            "证据 B/C；外侧膝痛需排除半月板/关节线。"
+          ],
+          "evidence": "B/C",
+          "sources": [
+            "JOSPT / BJSM iliotibial band syndrome reviews.",
+            "Brukner P, Khan K. Clinical Sports Medicine, 5th ed."
+          ],
+          "related": [
+            "knee",
+            "hip",
+            "fascia-training"
+          ],
+          "tags": [
+            "髂胫束",
+            "跑步",
+            "膝外侧"
+          ]
+        },
+        {
+          "id": "fascial-adaptation",
+          "title": "结缔组织的负荷适应",
+          "summary": "肌腱/筋膜等结缔组织对机械负荷产生适应（胶原合成/排列/刚度变化），但比肌肉慢；年龄、激素、营养与负荷史影响适应速度。",
+          "points": [
+            "渐进负荷是主线；突然加量易出问题。",
+            "肌腱/筋膜适应需要数周–数月，不要期待“一次手法”改变结构。",
+            "蛋白质/维生素 C/能量支持胶原合成；证据有限但合理。",
+            "证据 B；个体差异大。"
+          ],
+          "evidence": "B",
+          "sources": [
+            "Connective Tissue Research reviews.",
+            "Journal of Applied Physiology tendon adaptation reviews."
+          ],
+          "related": [
+            "force-transmission",
+            "tendon-ligament",
+            "recovery"
+          ],
+          "tags": [
+            "结缔组织",
+            "适应",
+            "负荷"
+          ]
+        },
+        {
+          "id": "myofascial-release",
+          "title": "筋膜手法/泡沫轴的证据",
+          "summary": "泡沫轴、手法、筋膜刀等可短期改善活动度与疼痛感知，但“打破粘连/排毒/重置筋膜”缺乏可靠证据；效果多与神经/血流/触觉调节有关。",
+          "points": [
+            "泡沫轴 30–60 秒/部位，疼痛 3/10 以内。",
+            "手法后配合主动运动，效果更持久。",
+            "不要用暴力/大面积淤青；有凝血/皮肤问题慎用。",
+            "证据 B/C；不是替代力量训练。"
+          ],
+          "evidence": "B/C",
+          "sources": [
+            "Journal of Bodywork and Movement Therapies.",
+            "JOSPT / BJSM manual therapy reviews."
+          ],
+          "related": [
+            "fascia-training",
+            "recovery",
+            "fascial-nociception"
+          ],
+          "tags": [
+            "泡沫轴",
+            "手法",
+            "筋膜刀"
+          ]
+        },
+        {
+          "id": "creep-viscoelasticity",
+          "title": "黏弹性、蠕变与拉伸",
+          "summary": "筋膜/肌腱具有黏弹性：持续低负荷会产生蠕变（长度增加），快速负荷更偏弹性；温度、水合、负荷历史影响行为。",
+          "points": [
+            "静态拉伸 30–60 秒可短期增加 ROM，但不等同永久延长。",
+            "热身提高组织温度/顺应性；冷环境更需热身。",
+            "长期 ROM 改善更多来自耐受/神经因素。",
+            "证据 B；避免暴力拉伸。"
+          ],
+          "evidence": "B",
+          "sources": [
+            "Findley TW, Schleip R. Fascia Research.",
+            "Journal of Biomechanics reviews."
+          ],
+          "related": [
+            "fascia-basics",
+            "force-transmission"
+          ],
+          "tags": [
+            "黏弹性",
+            "拉伸",
+            "ROM"
+          ]
+        },
+        {
+          "id": "proprioception-fascia",
+          "title": "本体感觉：肌梭、腱器官与筋膜",
+          "summary": "本体感觉来自肌梭、高尔基腱器官、关节感受器、皮肤与筋膜；它支撑平衡、动作控制与损伤预防。筋膜的具体贡献仍有争议。",
+          "points": [
+            "单腿平衡、闭眼平衡、不稳定面训练可改善本体感觉。",
+            "踝/膝损伤后本体感觉训练是康复重点。",
+            "力量训练本身也改善本体感觉/运动控制。",
+            "证据 B；不要神化“筋膜本体感觉”。"
+          ],
+          "evidence": "B",
+          "sources": [
+            "Neuroscience / motor control reviews.",
+            "JOSPT Clinical Practice Guidelines."
+          ],
+          "related": [
+            "ankle-foot",
+            "gait-running",
+            "recovery"
+          ],
+          "tags": [
+            "本体感觉",
+            "平衡",
+            "运动控制"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nutrition",
+      "name": "营养学",
+      "icon": "🥗",
+      "intro": "从能量平衡、蛋白质、碳水、脂肪与补剂出发，理解如何支持训练、恢复与体成分目标；优先食物，补剂只做补充。",
+      "notes": [
+        {
+          "id": "energy-balance",
+          "title": "能量平衡与 TDEE",
+          "summary": "体重变化由长期能量平衡决定；TDEE = BMR + 活动 + 食物热效应。7700 kcal/kg 是粗略近似，实际受适应生热、组织成分影响。",
+          "points": [
+            "用 7 天平均体重趋势调整，而不是单日波动。",
+            "减脂赤字 10–20%；增肌盈余 5–15%。",
+            "蛋白质/力量训练保护瘦体重。",
+            "不要追求过快速度；平台期先看依从性和活动量。"
+          ],
+          "evidence": "A",
+          "sources": [
+            "ACSM's Guidelines for Exercise Testing and Prescription, 11th ed.",
+            "American Journal of Clinical Nutrition.",
+            "ISSN Position Stands."
+          ],
+          "related": [
+            "protein",
+            "carbs",
+            "recovery"
+          ],
+          "tags": [
+            "热量",
+            "TDEE",
+            "体重"
+          ]
+        },
+        {
+          "id": "protein",
+          "title": "蛋白质：总量、分配与来源",
+          "summary": "增肌/力量训练者蛋白质 1.6–2.2 g/kg/d 足够（ISSN 一般 1.4–2.0，减脂/高强度可更高）；每餐 0.25–0.4 g/kg，约 30–40g，分布 3–5 餐。",
+          "points": [
+            "优质蛋白：蛋/奶/肉/鱼/大豆；亮氨酸是重要信号。",
+            "训练后不必“30 分钟窗口”，全天总量更重要。",
+            "减脂期提高蛋白（1.8–2.4 g/kg）保护肌肉。",
+            "肾功能正常者高蛋白安全；肾病患者需医生。"
+          ],
+          "evidence": "A",
+          "sources": [
+            "ISSN Position Stand: Protein and Exercise (2017).",
+            "ACSM/AND/Dietitians of Canada Position Stand.",
+            "American Journal of Clinical Nutrition."
+          ],
+          "related": [
+            "hypertrophy",
+            "energy-balance",
+            "recovery"
+          ],
+          "tags": [
+            "蛋白质",
+            "增肌",
+            "减脂"
+          ]
+        },
+        {
+          "id": "carbs",
+          "title": "碳水与训练表现",
+          "summary": "碳水支持训练表现和糖原恢复；摄入量随训练量 3–10 g/kg/d；纤维 25–35g/d。训练前后安排碳水有帮助，但总能量/总量优先。",
+          "points": [
+            "力量训练前 1–2 小时碳水；训练后正餐。",
+            "高纤维食物增加饱腹；训练前避免过多纤维。",
+            "“碳水恐惧”不必要；看总量和来源。",
+            "糖饮料/精制糖控制，不等于完全不吃碳水。"
+          ],
+          "evidence": "A",
+          "sources": [
+            "ACSM's Guidelines for Exercise Testing and Prescription, 11th ed.",
+            "Sports Medicine / J Appl Physiol carbohydrate reviews.",
+            "American Journal of Clinical Nutrition."
+          ],
+          "related": [
+            "energy-systems",
+            "energy-balance",
+            "protein"
+          ],
+          "tags": [
+            "碳水",
+            "糖原",
+            "训练表现"
+          ]
+        },
+        {
+          "id": "fat-micronutrients",
+          "title": "脂肪、微量营养素与补剂",
+          "summary": "脂肪 20–35% 总热量，保证必需脂肪酸；维生素 D 缺乏才补，铁/钙/维生素 B12 按饮食风险；肌酸 3–5g/d 是证据最扎实的运动补剂之一。",
+          "points": [
+            "脂肪过低影响激素/吸收；不必极低脂。",
+            "维生素 D 先检测；不要盲目大剂量。",
+            "肌酸：3–5g/d，无需冲击；注意水合。",
+            "补剂是补充，不是替代饮食；选择第三方检测。"
+          ],
+          "evidence": "A/B",
+          "sources": [
+            "ISSN Position Stand: Creatine Supplementation (2017).",
+            "ACSM/AND position stands.",
+            "American Journal of Clinical Nutrition."
+          ],
+          "related": [
+            "protein",
+            "energy-balance",
+            "recovery"
+          ],
+          "tags": [
+            "脂肪",
+            "维生素D",
+            "肌酸",
+            "补剂"
+          ]
+        },
+        {
+          "id": "meal-timing",
+          "title": "进餐时机：训练前后与蛋白分布",
+          "summary": "总能量与总蛋白优先；训练前后安排碳水/蛋白有帮助，但“30 分钟窗口”被夸大。把蛋白均匀分布到 3–5 餐更实用。",
+          "points": [
+            "每餐 30–40g 蛋白；训练前 1–2h 碳水+蛋白。",
+            "训练后 1–2h 内正餐即可；不必立刻喝 shake。",
+            "睡前蛋白（酪蛋白/牛奶）可选。",
+            "证据 A/B；个体耐受优先。"
+          ],
+          "evidence": "A/B",
+          "sources": [
+            "ISSN Position Stand: Protein and Exercise (2017).",
+            "ACSM/AND position stands."
+          ],
+          "related": [
+            "protein",
+            "carbs",
+            "energy-balance"
+          ],
+          "tags": [
+            "进餐时机",
+            "蛋白",
+            "训练前后"
+          ]
+        },
+        {
+          "id": "supplements-evidence",
+          "title": "运动补剂：哪些证据较强",
+          "summary": "证据较强的运动补剂：肌酸、咖啡因、β-丙氨酸（特定高强度）、硝酸盐（特定耐力）、维生素 D（缺乏者）。大多数“燃脂/睾酮”补剂证据弱。",
+          "points": [
+            "肌酸 3–5g/d；咖啡因 3–6mg/kg（按耐受）；β-丙氨酸 4–6g/d 分次。",
+            "选择第三方检测产品；注意比赛禁用清单。",
+            "补剂是补充，不能替代饮食/训练/睡眠。",
+            "证据 A/B；个体反应差异大。"
+          ],
+          "evidence": "A/B",
+          "sources": [
+            "ISSN Position Stands (creatine, protein, beta-alanine).",
+            "Australian Institute of Sport Supplement Framework."
+          ],
+          "related": [
+            "fat-micronutrients",
+            "protein"
+          ],
+          "tags": [
+            "补剂",
+            "肌酸",
+            "咖啡因"
+          ]
+        },
+        {
+          "id": "energy-availability",
+          "title": "低能量可用性（LEA/RED-S）",
+          "summary": "长期能量摄入不足以支持训练与生理功能，会出现低能量可用性，影响激素、骨、免疫、情绪与表现；不是“越少吃越好”。",
+          "points": [
+            "能量可用性 =（摄入−运动消耗）/瘦体重；长期过低有风险。",
+            "女性、耐力/体重级运动员风险更高；月经紊乱/反复伤病是警示。",
+            "处理：增加能量摄入、降低过量运动、保证蛋白/碳水/睡眠。",
+            "证据 A/B；需要专业评估。"
+          ],
+          "evidence": "A/B",
+          "sources": [
+            "IOC consensus on relative energy deficiency in sport (RED-S).",
+            "ACSM/AND position stands."
+          ],
+          "related": [
+            "energy-balance",
+            "recovery"
+          ],
+          "tags": [
+            "能量可用性",
+            "RED-S",
+            "健康"
+          ]
+        },
+        {
+          "id": "weight-loss-muscle",
+          "title": "减脂期保留肌肉",
+          "summary": "减脂期保留肌肉的关键：温和赤字、足够蛋白、力量训练、睡眠与恢复；过快减重会丢肌肉/影响表现。",
+          "points": [
+            "赤字 10–20%；速度约 0.5–1% 体重/周。",
+            "蛋白 1.8–2.4g/kg；每餐 30–40g。",
+            "力量训练维持强度/容量；有氧适量。",
+            "监测：体重趋势、腰围、力量、精力。"
+          ],
+          "evidence": "A",
+          "sources": [
+            "ISSN Position Stand: Diets and Body Composition.",
+            "American Journal of Clinical Nutrition."
+          ],
+          "related": [
+            "protein",
+            "energy-balance",
+            "hypertrophy"
+          ],
+          "tags": [
+            "减脂",
+            "保留肌肉",
+            "赤字"
+          ]
+        },
+        {
+          "id": "fiber-gut",
+          "title": "膳食纤维与肠道",
+          "summary": "膳食纤维 25–35g/d，支持肠道菌群、饱腹与血糖；增加纤维要循序渐进并补水，训练前避免过多高纤维食物。",
+          "points": [
+            "来源：蔬菜/水果/全谷/豆类；多样化。",
+            "突然大量增加会胀气；分次/逐步。",
+            "训练前 1–2h 少纤维/少油。",
+            "证据 B；肠道症状明显时看医生/营养师。"
+          ],
+          "evidence": "B",
+          "sources": [
+            "American Journal of Clinical Nutrition.",
+            "Nutrients reviews."
+          ],
+          "related": [
+            "carbs",
+            "energy-balance"
+          ],
+          "tags": [
+            "纤维",
+            "肠道",
+            "饱腹"
+          ]
+        },
+        {
+          "id": "hydration-electrolytes",
+          "title": "水合与电解质",
+          "summary": "水合影响血容量、体温调节与表现；长时间/大量出汗需要补钠等电解质，但不要过量喝水导致低钠血症。",
+          "points": [
+            "日常 2–3L（按体重/气候/出汗调整）。",
+            "训练前后称重估算出汗率；每丢失 1kg 补约 1–1.5L。",
+            "超过 60–90 分钟高强度/大量出汗考虑电解质。",
+            "证据 A/B；尿液颜色可粗略参考。"
+          ],
+          "evidence": "A/B",
+          "sources": [
+            "ACSM's Guidelines for Exercise Testing and Prescription, 11th ed.",
+            "Guyton & Hall. Textbook of Medical Physiology, 14th ed."
+          ],
+          "related": [
+            "heat-hydration",
+            "energy-balance"
+          ],
+          "tags": [
+            "水合",
+            "电解质",
+            "出汗"
+          ]
+        },
+        {
+          "id": "plant-based",
+          "title": "植物性饮食与增肌",
+          "summary": "植物蛋白可以支持增肌，但需要关注总蛋白、亮氨酸、B12、铁、锌、omega-3 与热量；豆类/大豆/谷物搭配可提高氨基酸谱。",
+          "points": [
+            "蛋白 1.8–2.2g/kg；大豆/豌豆/豆类搭配。",
+            "B12 需补充；铁/锌关注；omega-3 可考虑藻油。",
+            "植物饮食纤维高，训练前注意胃肠耐受。",
+            "证据 B；个体差异大。"
+          ],
+          "evidence": "B",
+          "sources": [
+            "ISSN Position Stand: Protein and Exercise (2017).",
+            "American Journal of Clinical Nutrition."
+          ],
+          "related": [
+            "protein",
+            "fat-micronutrients"
+          ],
+          "tags": [
+            "植物蛋白",
+            "素食",
+            "增肌"
+          ]
+        },
+        {
+          "id": "alcohol",
+          "title": "酒精与恢复",
+          "summary": "酒精会影响睡眠、蛋白合成、水合与恢复，且提供空热量；不是必需品，训练日/恢复期尽量控制。",
+          "points": [
+            "剂量越大影响越明显；不要用酒精助眠。",
+            "训练后大量饮酒可能影响蛋白合成/恢复。",
+            "酒精有利尿作用，注意水合/电解质。",
+            "证据 B；个体差异/文化因素。"
+          ],
+          "evidence": "B",
+          "sources": [
+            "Sports Medicine / JISSN alcohol and recovery reviews.",
+            "ACSM/AND position stands."
+          ],
+          "related": [
+            "recovery",
+            "energy-balance"
+          ],
+          "tags": [
+            "酒精",
+            "恢复",
+            "睡眠"
+          ]
+        }
+      ]
+    }
+  ],
+  "cross": [
+    {
+      "id": "bench-scapular-medial",
+      "title": "卧推时肩胛内侧缘不适：四学科整合分析",
+      "tags": [
+        "肩胛",
+        "卧推",
+        "肩痛",
+        "水平推"
+      ],
+      "summary": "水平推（卧推/俯卧撑/推举）时肩胛内侧缘不适很常见，但原因不是单一的“菱形肌紧”。需要从解剖、生理、筋膜、营养/恢复四个层面交叉看，先排除红旗。",
+      "sections": [
+        {
+          "discipline": "anatomy",
+          "title": "运动解剖学视角",
+          "body": "肩胛内侧缘是菱形肌、肩胛提肌、前锯肌等附着区；水平推要求肩胛后缩/稳定，前锯肌离心控制肩胛前伸/上回旋，菱形肌/斜方肌协同。胸椎伸展不足、肩袖控制差、肩胛稳定肌耐力不足会让内侧缘负荷增加；长胸神经/C5-C7 神经根受激惹也可表现为肩胛/上肢症状。"
+        },
+        {
+          "discipline": "physiology",
+          "title": "运动生理学视角",
+          "body": "负荷突然增加、组数/重量过大、肩胛稳定肌耐力不足、疲劳后动作变形，都会让局部组织负荷超标；疼痛敏感、睡眠不足、压力会放大症状；DOMS 常在 24–48 小时出现，但持续锐痛/夜间痛要警惕。"
+        },
+        {
+          "discipline": "fascia",
+          "title": "筋膜学视角",
+          "body": "肩胛周围筋膜与臂线、螺旋线、浅背线连续；胸腰筋膜/背阔肌-臀肌链可能影响肩胛位置与力传递。筋膜链是描述性模型，不是诊断；不要只“松解菱形肌”，要同时看肩胛控制与负荷。"
+        },
+        {
+          "discipline": "nutrition",
+          "title": "营养与恢复视角",
+          "body": "总能量、蛋白质、水合、睡眠影响恢复；没有哪种食物能“消除肩胛痛”。减脂过快/能量不足会增加疲劳和受伤风险；训练日保证碳水与蛋白，恢复日保证睡眠。"
+        }
+      ],
+      "integrated": "① 先减量 20–30%，停疼痛动作 1–2 周；② 肩胛俯卧撑、墙面滑手、前锯肌推、面拉、划船，2–3 组无痛范围；③ 胸椎伸展/旋转；④ 卧推改中立握/哑铃/地板卧推，控制肩胛后缩；⑤ 疼痛不超过 3/10、24 小时不加重；⑥ 2–4 周无改善，或出现翼状肩/麻木/无力，转物理治疗/骨科/神经评估。",
+      "redFlags": [
+        "翼状肩/肩胛内侧明显突出",
+        "进行性手臂麻木/无力",
+        "外伤后剧痛/畸形",
+        "夜间痛/发热/不明原因体重下降",
+        "双侧症状/大小便异常（颈髓红旗）"
+      ],
+      "evidence": "B/C（机制 + 临床推理；不是诊断算法）",
+      "sources": [
+        "Neumann DA. Kinesiology of the Musculoskeletal System, 3rd ed.",
+        "JOSPT Clinical Practice Guidelines (shoulder/neck).",
+        "Myers TW. Anatomy Trains, 4th ed.（模型，非诊断标准）",
+        "ACSM's Guidelines for Exercise Testing and Prescription, 11th ed."
+      ]
+    },
+    {
+      "id": "runner-knee",
+      "title": "跑步膝（髌股疼痛）：四学科整合",
+      "tags": [
+        "跑步",
+        "膝",
+        "髌股疼痛"
+      ],
+      "summary": "跑步膝前痛常见，但不是“膝盖磨坏了”。需要从解剖、负荷生理、筋膜/髋踝链、营养恢复四个层面交叉看，先排除红旗。",
+      "sections": [
+        {
+          "discipline": "anatomy",
+          "title": "运动解剖学视角",
+          "body": "髌股关节承受股四头拉力与髌骨滑动；髋外展/外旋控制、股四头力量、踝背屈与足弓都会改变膝前负荷。膝内扣、步幅过大、下坡跑可能增加髌股压力。"
+        },
+        {
+          "discipline": "physiology",
+          "title": "运动生理学视角",
+          "body": "跑量/速度突然增加、恢复不足、疼痛敏感与睡眠压力会放大症状；髌股疼痛是负荷相关，不是单纯结构损伤。逐步加量、力量与耐受训练是主线。"
+        },
+        {
+          "discipline": "fascia",
+          "title": "筋膜学视角",
+          "body": "髂胫束/阔筋膜、髌骨支持带、小腿筋膜与臀肌筋膜连续；但“筋膜粘连”不是唯一解释。训练臀中肌/小腿/足内在肌比暴力滚压更可靠。"
+        },
+        {
+          "discipline": "nutrition",
+          "title": "营养与恢复视角",
+          "body": "能量不足、蛋白不足、水合/睡眠差会影响恢复与受伤风险；没有单一食物能治跑步膝。减脂过快会降低恢复能力。"
+        }
+      ],
+      "integrated": "① 调整跑量/速度（先减 30–50%），避免下坡/突然加量；② 髋外展/外旋、股四头、提踵/足内在肌，2–3 组无痛；③ 步频/步幅小幅调整，先观察 2 周；④ 疼痛≤3/10、24h 不加重；⑤ 明显肿胀/交锁/打软/夜间痛→骨科。",
+      "redFlags": [
+        "明显肿胀/交锁/打软",
+        "外伤后不能负重",
+        "夜间痛/发热",
+        "进行性无力"
+      ],
+      "evidence": "B/C（机制+临床推理）",
+      "sources": [
+        "JOSPT CPG: Patellofemoral Pain (2019)",
+        "Brukner & Khan, Clinical Sports Medicine",
+        "Neumann, Kinesiology of the Musculoskeletal System"
+      ]
+    },
+    {
+      "id": "low-back-sitting",
+      "title": "久坐腰痛：四学科整合",
+      "tags": [
+        "腰痛",
+        "久坐",
+        "核心"
+      ],
+      "summary": "久坐后腰痛很常见，多数是非特异性腰痛；不是“坐姿一定错”。需要从解剖、负荷生理、筋膜/髋胸链、营养恢复四层面看，先排红旗。",
+      "sections": [
+        {
+          "discipline": "anatomy",
+          "title": "运动解剖学视角",
+          "body": "腰椎、髋、胸椎与核心共同承担负荷；久坐使髋屈肌/胸椎活动减少，臀肌/核心耐力可能下降。骨盆前倾是描述，不是诊断。"
+        },
+        {
+          "discipline": "physiology",
+          "title": "运动生理学视角",
+          "body": "静态负荷、缺乏活动、睡眠/压力与恐惧回避会影响疼痛；保持活动+渐进力量+疼痛教育是一线。多数不需要影像。"
+        },
+        {
+          "discipline": "fascia",
+          "title": "筋膜学视角",
+          "body": "胸腰筋膜连接背阔肌/臀肌/腹壁/竖脊肌，参与力传递；但“筋膜粘连”不是唯一原因。髋铰链/核心训练比单纯松解更可靠。"
+        },
+        {
+          "discipline": "nutrition",
+          "title": "营养与恢复视角",
+          "body": "总能量、蛋白、水合、睡眠影响恢复；减脂过快/能量不足会增加疲劳。没有单一食物能治腰痛。"
+        }
+      ],
+      "integrated": "① 每 30–45 分钟起身 2–3 分钟；② 步行/髋铰链/死虫/鸟狗/侧平板/臀桥；③ 逐步硬拉/分腿蹲；④ 疼痛教育+睡眠；⑤ 红旗（鞍区麻木/大小便障碍/发热/夜间痛/进行性无力）→就医。",
+      "redFlags": [
+        "鞍区麻木/大小便障碍",
+        "发热/夜间痛/体重下降",
+        "外伤/骨质疏松",
+        "进行性麻木/无力"
+      ],
+      "evidence": "A/B（指南+机制）",
+      "sources": [
+        "Lancet Low Back Pain Series (2018)",
+        "NICE NG59",
+        "JOSPT Low Back Pain CPG"
+      ]
+    },
+    {
+      "id": "ankle-sprain",
+      "title": "踝扭伤后反复不稳：四学科整合",
+      "tags": [
+        "踝",
+        "扭伤",
+        "不稳"
+      ],
+      "summary": "踝内翻扭伤后反复“打软/不稳”常见；需要从韧带解剖、本体感觉/力量生理、筋膜/小腿链、营养恢复四层面看，先排除骨折。",
+      "sections": [
+        {
+          "discipline": "anatomy",
+          "title": "运动解剖学视角",
+          "body": "外侧韧带（ATFL/CFL）与腓骨肌、胫后肌、足内在肌共同稳定踝/足；距骨倾斜/前抽屉可评估松弛，但急性期受疼痛影响。"
+        },
+        {
+          "discipline": "physiology",
+          "title": "运动生理学视角",
+          "body": "扭伤后本体感觉/腓骨肌反应下降，反复扭伤风险增加；平衡/力量训练与渐进负重是核心。急性期先排除骨折（Ottawa 规则）。"
+        },
+        {
+          "discipline": "fascia",
+          "title": "筋膜学视角",
+          "body": "小腿筋膜/腓骨肌筋膜/足底筋膜连续；筋膜链是模型，不是诊断。提踵/短足/单腿平衡比单纯拉伸更可靠。"
+        },
+        {
+          "discipline": "nutrition",
+          "title": "营养与恢复视角",
+          "body": "蛋白/能量/水合/睡眠支持组织修复；没有单一补剂能“修复韧带”。恢复期避免过度制动。"
+        }
+      ],
+      "integrated": "① Ottawa 规则排除骨折；② 保护+渐进负重；③ 踝背屈/提踵/腓骨肌/短足/单腿平衡；④ 2–4 周逐步跑跳；⑤ 反复不稳/明显松弛→骨科/物理治疗。",
+      "redFlags": [
+        "不能负重/骨点压痛",
+        "明显畸形",
+        "红肿热痛/发热",
+        "进行性麻木"
+      ],
+      "evidence": "A/B",
+      "sources": [
+        "JOSPT CPG: Ankle Ligament Sprains (2021)",
+        "Brukner & Khan, Clinical Sports Medicine",
+        "Neumann, Kinesiology of the Musculoskeletal System"
+      ]
+    },
+    {
+      "id": "hypertrophy-plateau",
+      "title": "增肌平台期：训练/生理/营养/恢复",
+      "tags": [
+        "增肌",
+        "平台期",
+        "训练"
+      ],
+      "summary": "增肌平台期不是“基因到头了”，常见原因是容量/强度不足、恢复不够、热量/蛋白不足或测量误差；需要四学科一起看。",
+      "sections": [
+        {
+          "discipline": "anatomy",
+          "title": "运动解剖学视角",
+          "body": "动作选择/活动范围/力臂影响肌肉张力；长期同一动作可能适应。可换动作角度、增加拉伸位负荷、调整器械。"
+        },
+        {
+          "discipline": "physiology",
+          "title": "运动生理学视角",
+          "body": "机械张力是主轴；容量 10–20 组/肌群/周、RIR 1–3、渐进超负荷。睡眠/压力/同期有氧过多会限制适应。"
+        },
+        {
+          "discipline": "fascia",
+          "title": "筋膜学视角",
+          "body": "结缔组织适应较慢；不要频繁换计划。肌腱/筋膜需要渐进负荷；泡沫轴/拉伸是辅助，不是增肌手段。"
+        },
+        {
+          "discipline": "nutrition",
+          "title": "营养与恢复视角",
+          "body": "热量盈余 5–15%、蛋白 1.6–2.2g/kg、碳水支持训练；体重 2–3 周不涨先加 100–200 kcal。测量误差/水合会干扰判断。"
+        }
+      ],
+      "integrated": "① 记录 4 周训练/体重/围度；② 每肌群容量是否达标；③ 主项是否渐进；④ 热量/蛋白/睡眠；⑤ 每 6–8 周 deload；⑥ 仍无变化再换计划/找教练。",
+      "redFlags": [
+        "持续关节痛/夜间痛",
+        "进行性无力",
+        "不明原因体重下降",
+        "进食障碍倾向"
+      ],
+      "evidence": "A/B",
+      "sources": [
+        "ACSM Guidelines, 11th ed.",
+        "Schoenfeld BJ, et al. hypertrophy reviews",
+        "ISSN Position Stand: Protein and Exercise (2017)"
+      ]
+    }
+  ]
+}

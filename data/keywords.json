@@ -1,0 +1,33 @@
+{
+  "anatomy": [
+    "muscle", "muscular", "tendon", "bone", "joint", "scapula", "shoulder", "hip", "knee",
+    "spine", "spinal", "ligament", "cartilage", "biomechanic", "kinematic", "kinetic",
+    "gait", "posture", "skeletal", "myofascial", "pelvic", "ankle", "foot", "elbow",
+    "wrist", "neck", "thoracic", "lumbar", "glute", "quadriceps", "hamstring",
+    "rotator cuff", "patella", "acl", "meniscus", "fascia", "anatomical", "morphology",
+    "range of motion", "motor control"
+  ],
+  "physiology": [
+    "exercise", "training", "strength", "hypertrophy", "endurance", "vo2", "aerobic",
+    "anaerobic", "fatigue", "recovery", "metabolic", "metabolism", "sprint", "power",
+    "resistance", "adaptation", "mitochondrial", "glycogen", "lactate", "heart rate",
+    "oxygen", "performance", "sedentary", "physical activity", "muscle protein synthesis",
+    "neuromuscular", "cardiorespiratory", "thermoregulation", "hormone"
+  ],
+  "fascia": [
+    "fascia", "fascial", "connective tissue", "collagen", "extracellular matrix",
+    "tendon", "aponeurosis", "myofascial", "ligament", "mechanotransduction",
+    "fibroblast", "adhesion", "palpation", "manual therapy", "massage", "foam rolling",
+    "stretching", "elastic", "viscoelastic", "shear", "sliding"
+  ],
+  "nutrition": [
+    "nutrition", "nutrient", "protein", "carbohydrate", "fat", "diet", "dietary",
+    "energy intake", "calorie", "supplement", "creatine", "vitamin", "mineral",
+    "hydration", "fluid", "amino acid", "leucine", "glycogen", "body composition",
+    "weight loss", "fat mass", "lean mass", "food", "meal", "fiber", "omega-3", "caffeine"
+  ],
+  "general": [
+    "exercise", "physical activity", "sports", "athlete", "rehabilitation", "injury",
+    "pain", "training", "performance"
+  ]
+}
