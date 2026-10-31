@@ -247,10 +247,21 @@ def main():
 
     save_json(LATEST, latest_out)
     save_json(SEEN, sorted(seen))
-    ARCHIVE.mkdir(parents=True, exist_ok=True)
-    save_json(ARCHIVE / f"{today}.json", {"updated": today, "articles": new_articles})
 
-    # Markdown 摘要（只列原文信息，不生成结论）
+    # 归档：同一天多次运行时合并，而不是覆盖
+    ARCHIVE.mkdir(parents=True, exist_ok=True)
+    archive_path = ARCHIVE / f"{today}.json"
+    old_archive = load_json(archive_path, {"updated": today, "articles": []})
+    archive_map = {a.get("pmid"): a for a in old_archive.get("articles", []) if a.get("pmid")}
+    for a in new_articles:
+        archive_map[a["pmid"]] = a
+    archive_articles = list(archive_map.values())
+    for a in archive_articles:
+        if "relevance" not in a:
+            a["relevance"], a["matched"] = relevance(a, keywords)
+    save_json(archive_path, {"updated": today, "articles": archive_articles})
+
+    # Markdown 摘要：从当天归档生成，多次运行会保留当天全部文章
     DIGEST_DIR.mkdir(parents=True, exist_ok=True)
     lines = [
         f"# 每日文献更新 {today}",
@@ -258,8 +269,9 @@ def main():
         "> 自动抓取 PubMed 元数据与摘要原文；不生成结论/建议。点 PMID 看原文。",
         "",
     ]
+    digest_articles = [a for a in archive_articles if a.get("relevance", 0) >= 2]
+    digest_articles.sort(key=lambda x: (x.get("discipline", ""), x.get("date", "")), reverse=True)
     by_disc = {}
-    digest_articles = [a for a in new_articles if a.get("relevance", 0) >= 2]
     for a in digest_articles:
         by_disc.setdefault(a.get("discipline", ""), []).append(a)
     for disc in ["anatomy", "physiology", "fascia", "nutrition"]:
@@ -277,7 +289,7 @@ def main():
             lines.append("")
     (DIGEST_DIR / f"{today}.md").write_text("\n".join(lines), encoding="utf-8")
 
-    print(f"\n完成：新增 {len(new_articles)} 条（高相关 {len(digest_articles)} 条）；latest 共 {len(merged)} 条；写入 {DIGEST_DIR / (today + '.md')}")
+    print(f"\n完成：新增 {len(new_articles)} 条（高相关 {len(digest_articles)} 条）；latest 共 {len(merged)} 条；当天归档 {len(archive_articles)} 条；写入 {DIGEST_DIR / (today + '.md')}")
     return 0
 
 
