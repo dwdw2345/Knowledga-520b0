@@ -13,7 +13,14 @@
 - 四学科各 **12 篇**，共 **48 篇**核心笔记
 - **5 个**交叉主题（肩胛/卧推、跑步膝、久坐腰痛、踝扭伤、增肌平台期）
 - **30 本**期刊
-- **145 条**原始文献 / **117 条**关键词筛选后进入前端
+- **177 条**原始文献 / **138 条**关键词筛选后进入前端
+
+## 已上线
+
+- GitHub 仓库：`https://github.com/dwdw2345/Knowledga`
+- GitHub Pages：`https://dwdw2345.github.io/knowledga/`
+- GitHub Actions：`Daily knowledge base`，每天北京时间约 06:00 抓取/构建/提交
+- Netlify：待连接（Import from Git，或 `https://app.netlify.com/start/deploy?repository=https://github.com/dwdw2345/Knowledga`）
 
 ---
 
