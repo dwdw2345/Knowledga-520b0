@@ -10,8 +10,8 @@
       "notes": 48,
       "cross": 5,
       "journals": 30,
-      "latest_articles": 117,
-      "raw_articles": 145
+      "latest_articles": 138,
+      "raw_articles": 177
     }
   },
   "disciplines": [
@@ -1533,8 +1533,8 @@
   ],
   "latest": {
     "updated": "2026-10-31",
-    "updated_at": "2026-10-31 15:02",
-    "raw_count": 145,
+    "updated_at": "2026-10-31 15:40",
+    "raw_count": 177,
     "articles": [
       {
         "pmid": "42945482",
@@ -1830,6 +1830,27 @@
         ]
       },
       {
+        "pmid": "42935275",
+        "title": "Pre-season friendly match-play as a double-edged sword: Performance gains and inflammatory cost in semi-professional soccer players (a natural experiment).",
+        "journal": "Experimental physiology",
+        "journal_issn": "0958-0670",
+        "discipline": "physiology",
+        "date": "2026-Oct-27",
+        "authors": "Dimitrios I Bourdas, Eleftherios Mylonis, Natalia Kompodieta et al.",
+        "abstract": "Pre-season training prepares soccer players for competition, but the longitudinal effects of friendly match exposure remain unclear. We investigated whether cumulative late pre-season match-play is associated with physiological adaptation in semi-professional players. Twenty-four male players from a randomly selected semi-professional team competing at national level were assessed at pre-season start, mid-pre-season and pre-competition. Measurements included body composition, physical performance, aerobic fitness and blood markers reflecting muscle damage, inflammation, hormonal status and haematological adaptation. Based on cumulative playing time across eight friendly matches, as determined by coaching staff, players were classified retrospectively into extended play (EP) or limited play (LP) groups. Controlling for mid-pre-season baseline, the EP group showed significantly lower pre-competition values for body mass ( η p 2 = 0.276), body fat ( η p 2 = 0.294) and 35 m sprint time ( η p 2 = 0.129) and higher values for lower-limb power (dominant/non-dominant; η p 2 = 0.219-0.424), velocity at maximal oxygen uptake ( η p 2 = 0.441) and at second ventilatory threshold ( η p 2 = 0.708), serum glutamic-oxaloacetic transaminase ( η p 2 = 0.296), myoglobin ( η p 2 = 0.199), high-sensitivity C-reactive protein ( η p 2 = 0.920), interleukin-6 ( η p 2 = 0.893), tumour necrosis factor-α ( η p 2 = 0.937) and red blood cell count ( η p 2 = 0.190) (all P ≤ 0.038). Across all participants, total match-play time was correlated significantly with reductions in body fat (r = -0.47) and increases in lower-limb power (r = 0.44-0.67), second ventilatory threshold (r = 0.55) and inflammatory markers (r = 0.79-0.86) (all P ≤ 0.033). Greater friendly match-play exposure during pre-season was associated with favourable physiological adaptations and a more pronounced physiological and inflammatory response. These findings support friendly match-play as a meaningful physiological stimulus and highlight the importance of balancing match exposure with recovery during pre-season preparation.",
+        "doi": "10.1113/EP093797",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42935275/",
+        "relevance": 14,
+        "matched": [
+          "performance",
+          "training",
+          "aerobic",
+          "recovery",
+          "sprint",
+          "power"
+        ]
+      },
+      {
         "pmid": "42934391",
         "title": "Post-Exercise Thermal Interventions and Nocturnal Sleep in Athletes: A Narrative Review of the Potential Underlying Physiological Mechanisms.",
         "journal": "Sports medicine (Auckland, N.Z.)",
@@ -1931,6 +1952,26 @@
           "endurance",
           "aerobic",
           "adaptation"
+        ]
+      },
+      {
+        "pmid": "42926218",
+        "title": "Creatine supplementation effects on cognition, sleep, and menopause symptoms in response to six weeks of high-intensity resistance training in perimenopausal females.",
+        "journal": "European journal of applied physiology",
+        "journal_issn": "1439-6319",
+        "discipline": "physiology",
+        "date": "2026-Oct-24",
+        "authors": "Paul A Baker, Gabrielle M DelBiondo, Caroline G Kelly et al.",
+        "abstract": "INTRODUCTION: Perimenopause (PERI) women experience cognitive dysfunction, sleep disturbances, and menopause-related symptoms, yet few accessible and time-efficient interventions have been evaluated. The purpose of the current study was to determine the impact of creatine monohydrate (CM) during six weeks of high-intensity resistance training (HIRT) on cognition, sleep, and menopause symptoms in PERI females. METHODS: PERI females (n = 51; Age: 46 ± 5 yrs) were randomized to CM (n = 18), placebo (PLA) (n = 20), or a non-training control (CON) group (n = 13). CM and PLA groups completed a 5-day loading phase (20 g·day⁻¹) followed by six weeks of maintenance (~ 4.5 g·day⁻¹) combined with twice-weekly progressive HIRT. Cognitive performance (Stroop, Rey 15-item memory test) and prefrontal oxygenation via functional near-infrared spectroscopy were assessed at baseline (BASE), pre- (PRE), and post-training (POST). Sleep and self-reported menopause symptoms (temperature sensitivity, fatigue, soreness, brain fog, and bloating) were monitored daily using a WHOOP wearable wristband. RESULTS: Stroop reaction time improved over time (congruent: p < 0.001; incongruent: p = 0.004) with no group differences. Prefrontal oxygenation during the Stroop test increased with CM at POST (+ 0.32 ± 2.01%) compared to a decrease with PLA (- 1.62 ± 2.01%; p = 0.003). Sleep consistency showed a time × treatment interaction (p < 0.001), with higher consistency in CM than PLA at week 6 (baseline-adjusted mean difference: +7.4% points, p = 0.015). CONCLUSIONS: In this exploratory analysis, CM combined with HIRT was associated with greater prefrontal oxygenation, higher sleep consistency, and fewer self-reported temperature sensitivity days relative to PLA in PERI females.",
+        "doi": "10.1007/s00421-026-06481-6",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42926218/",
+        "relevance": 13,
+        "matched": [
+          "training",
+          "resistance",
+          "fatigue",
+          "oxygen",
+          "performance"
         ]
       },
       {
@@ -2071,6 +2112,26 @@
           "knee",
           "biomechanic",
           "gait"
+        ]
+      },
+      {
+        "pmid": "42945128",
+        "title": "Comparison Between Concentric-Only and Eccentric-Concentric Load-Velocity Relationships and its Derived Parameters in the Jump Squat and Bench Press Throw Exercises.",
+        "journal": "Journal of strength and conditioning research",
+        "journal_issn": "1064-8011",
+        "discipline": "physiology",
+        "date": "2026-Oct-27",
+        "authors": "Jose L Hernandez-Davo, Rafael Sabido, Pablo Asencio et al.",
+        "abstract": "Hernandez-Davo, JL, Sabido, R, Asencio, P, and Boullosa, D. Comparison between concentric-only and eccentric-concentric load-velocity relationships and its derived parameters in the jump squat and bench press throw exercises. J Strength Cond Res XX(X): 000-000, 2026-The aim of this study was to analyze 2 different load-velocity (L-V) assessment protocols (concentric-only [CON] vs. maximal intended eccentric velocity [MAX]) on the L-V relationship in jump-squat (JS) and bench press throw (BPT) exercises, 18 men performed the L-V relationship assessments with loads representing 20, 40, 60, and 80% of one repetition maximum (1RM) on 2 different days. Reliability was assessed using intraclass correlation coefficient (ICC) and coefficient of variation (CV%). The mean propulsive velocity (MPV) was used to establish individual L-V profiles, their derived parameters (L0 and V0), and estimated 1RM values in back-squat and bench press exercises. Maximal intended eccentric velocity condition showed high reliability (ICC: 0.70-0.87: CV: 4.2-11.2%), whereas CON condition showed moderate-to-high scores (ICC: 0.61-0.86; CV: 4.8-10.4%). The mean propulsive velocity values were significantly higher in the MAX condition at all loads in the JS (8.9-10.9%) and at all loads except the 20% 1RM in the BPT exercise (6.1-23.3%). When using the MAX condition, L0 values were higher in the BPT exercise (5%), and V0 was greater in both the JS (9.0%) and BPT exercises (3.4%). The estimated 1RM value was higher in the MAX condition for both the squat (124.1 vs. 117.8 kg) and the bench press exercises (89.2 vs. 83.9 kg). High-velocity eccentric actions led to significantly higher MPV values, without compromising reliability values. The L-V profile and their derived parameters are substantially affected by eccentric velocity instructions. Standardized protocols using maximal eccentric velocities are suitable to assess athletes' maximal neuromuscular performances with reliable L-V profiles, which may complement the information obtained through the habitual CON protocol.",
+        "doi": "10.1519/JSC.0000000000005731",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42945128/",
+        "relevance": 11,
+        "matched": [
+          "exercise",
+          "strength",
+          "performance",
+          "neuromuscular",
+          "athlete"
         ]
       },
       {
@@ -2314,6 +2375,25 @@
         ]
       },
       {
+        "pmid": "42956724",
+        "title": "How Fast Is Thin Air? Empirical Altitude Adjustments for Indoor Track-and-Field Performance.",
+        "journal": "International journal of sports physiology and performance",
+        "journal_issn": "1555-0265",
+        "discipline": "physiology",
+        "date": "2026-Oct-29",
+        "authors": "Atle G Guttormsen, Simen Guttormsen",
+        "abstract": "PURPOSE: In this study, we analyze the effects of altitude on athletic performance for running events and speed-dependent jumping events at indoor meets, and we evaluate whether the NCAA's altitude adjustment process is accurate. METHODS: We analyzed 688,625 running results and 215,933 jumping results from NCAA indoor competitions at 382 different indoor venues. We estimated altitude effects using athlete × season fixed effects. For running events 200 m and longer, we included a banked-track indicator to separate altitude from the mechanical advantage of a banked oval. RESULTS: Altitude improved sprint times by 0.3% to 0.5%/1000 m and jumping marks by 0.5% to 0.7%/1000 m. Pole vault improvements (0.66%-0.69%/1000 m) matched the quadratic speed-to-height prediction (h ∝ v2). For distance events, the altitude penalty (added time) rose from 0.5% to 0.9%/1000 m at 800 m to 2.7% to 3.0%/1000 m at 5000 m; the drag-oxygen crossover lay between 400 m and 800 m. The women's 800 m was penalized approximately twice as severely as the men's (0.92 vs 0.50%/1000 m). NCAA sprint corrections accounted for only 42% to 71% of the observed effects. CONCLUSIONS: NCAA sprint corrections under-correct sharply once track banking is accounted for; the 800 m requires sex-specific adjustments; and the absence of any field-event correction is a clear gap in the existing system.",
+        "doi": "10.1123/ijspp.2026-0258",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42956724/",
+        "relevance": 9,
+        "matched": [
+          "performance",
+          "sprint",
+          "oxygen",
+          "athlete"
+        ]
+      },
+      {
         "pmid": "42954080",
         "title": "Baseline Testosterone Stratification Reveals Divergent Hormonal Adaptations in Men and Women Undergoing Basic Combat Training.",
         "journal": "Journal of applied physiology (Bethesda, Md. : 1985)",
@@ -2505,6 +2585,23 @@
           "training",
           "metabolic",
           "mitochondrial"
+        ]
+      },
+      {
+        "pmid": "42926217",
+        "title": "Reliability and analytical validity of the MX3 hydration testing system during exercise in the heat.",
+        "journal": "European journal of applied physiology",
+        "journal_issn": "1439-6319",
+        "discipline": "physiology",
+        "date": "2026-Oct-24",
+        "authors": "Xiujing Zhao, Brendon P McDermott, Zachary J McKenna et al.",
+        "abstract": "PURPOSE: The MX3 Hydration Testing System provides portable saliva osmolality (SOsm) measurements, but its between-day reliability and analytical validity against a laboratory reference osmometer remain unclear. This study evaluated MX3 reliability and analytical validity and examined whether measurement performance differed between direct tongue and collected-saliva sampling approaches. METHODS: Twenty healthy, physically active adults (10 females) completed one 30-min familiarization trial and two 120-min self-paced exercise trials in the heat. SOsm was measured using MX3 directly from the tongue and from collected saliva samples and compared with a laboratory freezing-point depression osmometer (OSMO1). Between-day reliability was evaluated using the coefficient of variation (CV), intraclass correlation coefficient (ICC), and Bland-Altman analysis. Analytical validity was assessed using linear regression, CV, and Bland-Altman analysis. RESULTS: Direct tongue measurements demonstrated poor between-day reliability (CV = 31-35%; ICC = - 0.003-0.053), whereas collected-saliva measurements demonstrated lower variability and moderate reliability (CV = 17-18%; ICC = 0.618-0.663). Collected-saliva measurements were strongly related to OSMO1 across all measurement conditions (R2 = 0.570-0.821; all p < 0.001), with mean biases ranging from - 23.9 to - 25.9 mOsm/kg and 95% limits of agreement (LoA) ranging from - 75.4 to 27.1 mOsm/kg. In contrast, direct tongue measurements showed weaker and less consistent relationships with OSMO1 (R2 = 0.001-0.282; p = 0.005-0.804), greater variability (CV = 36-51%), and larger negative biases (- 31.3 to - 52.0 mOsm/kg), with 95% LoA ranging from - 134.4 to 30.4 mOsm/kg. Agreement between the two MX3 sampling approaches was limited, particularly following exercise. CONCLUSION: Collected-saliva MX3 measurements demonstrated better between-day reliability and analytical performance than direct tongue measurements, although systematic disagreement with the reference osmometer remained. MX3 measurement performance differed between saliva sampling approaches, supporting further validation of the collected-saliva approach.",
+        "doi": "10.1007/s00421-026-06476-3",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42926217/",
+        "relevance": 8,
+        "matched": [
+          "exercise",
+          "performance"
         ]
       },
       {
@@ -2766,6 +2863,23 @@
         ]
       },
       {
+        "pmid": "42956725",
+        "title": "Putting Performance First: Measuring What Matters in Sports Science Research.",
+        "journal": "International journal of sports physiology and performance",
+        "journal_issn": "1555-0265",
+        "discipline": "physiology",
+        "date": "2026-Oct-29",
+        "authors": "Christopher J Stevens, Lee Taylor",
+        "abstract": "",
+        "doi": "10.1123/ijspp.2026-0559",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42956725/",
+        "relevance": 6,
+        "matched": [
+          "performance",
+          "sports"
+        ]
+      },
+      {
         "pmid": "42952253",
         "title": "Effect of a health belief model-based nutrition education intervention on dietary diversity among adults on antiretroviral treatment in Ilu Abbabor Zone, Southwestern Ethiopia - ERRATUM.",
         "journal": "The British journal of nutrition",
@@ -2840,6 +2954,25 @@
         ]
       },
       {
+        "pmid": "42936902",
+        "title": "Intense unimanual contractions increase muscle excitation and local metabolic activity in the resting contralateral forearm.",
+        "journal": "Experimental physiology",
+        "journal_issn": "0958-0670",
+        "discipline": "physiology",
+        "date": "2026-Oct-27",
+        "authors": "Lee J Hinkle, Britton C Scheuermann, Carl J Ade et al.",
+        "abstract": "Intense unilateral muscle contractions evoke measurable activity within the contralateral neuroaxis, which can be detected with surface electromyographic activity in the resting homologous muscle. Physiological mirror activity (PMA), the unintentional increase in contralateral muscle excitation, has been implicated in cross-limb interactions and adaptations. Despite longstanding observations of PMA, it remains unknown whether this low-level muscle excitation influences local muscle metabolism. We addressed this question using a vascular occlusion test in 10 healthy adults. Surface electromyography and near-infrared spectroscopy-derived measures of tissue oxygen saturation and muscle oxygen consumption ( m V . O 2 ) were obtained from the resting left forearm during vascular occlusion at rest and during fatiguing unimanual contractions. PMA in the contralateral resting arm was greater during fatiguing unimanual contractions than during rest (mean difference: 8.9%, 95% CI: 4.1 to 13.8). This increase was accompanied by a steeper rate of tissue oxygen desaturation (mean difference: -0.132% s- 1, 95% CI: -0.227 to -0.037) and greater m V . O 2 (mean difference: 0.188 mL O2 min- 1 100 g- 1, 95% CI: 0.057 to 0.320). Greater PMA was associated with both a faster rate of oxygen desaturation (r = -0.85, 95% CI: -0.96 to -0.46) and greater m V . O 2 (r = 0.78, 95% CI: 0.28 to 0.94). These findings provide the first evidence that PMA is accompanied by increased local metabolic demand, consistent with a coupling between unintentional muscle excitation and oxygen extraction in the resting limb.",
+        "doi": "10.1113/EP094221",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42936902/",
+        "relevance": 6,
+        "matched": [
+          "metabolic",
+          "metabolism",
+          "adaptation",
+          "oxygen"
+        ]
+      },
+      {
         "pmid": "42934413",
         "title": "Rethinking the application and adoption of NOVA classification in low- and middle-income countries (LMICs): a Southeast Asian food systems perspective.",
         "journal": "European journal of clinical nutrition",
@@ -2873,6 +3006,101 @@
         "matched": [
           "exercise",
           "sports"
+        ]
+      },
+      {
+        "pmid": "42934070",
+        "title": "Corrigendum to \"Dietary fish hydrolysate improves episodic memory in healthy elderly with lower level of memory performance: a double-blind, randomized, placebo-controlled clinical study\" [AJCN. July 2026; volume 124, Issue 1, Article #101360].",
+        "journal": "The American journal of clinical nutrition",
+        "journal_issn": "0002-9165",
+        "discipline": "nutrition",
+        "date": "2026-Oct-26",
+        "authors": "Mathilde Chataigner, Adrien Peltier, Elodie Bouvret et al.",
+        "abstract": "",
+        "doi": "10.1016/j.ajcnut.2026.101595",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42934070/",
+        "relevance": 6,
+        "matched": [
+          "diet",
+          "dietary",
+          "performance"
+        ]
+      },
+      {
+        "pmid": "42933652",
+        "title": "Hydroxyproline Enhances Branched-Chain Amino Acid Effects on Lifespan and Healthspan in Caenorhabditis elegans.",
+        "journal": "The Journal of nutrition",
+        "journal_issn": "0022-3166",
+        "discipline": "nutrition",
+        "date": "2026-Oct-26",
+        "authors": "Linggao Liu, Ruiyun Wu, Ziwu Gao et al.",
+        "abstract": "Food-derived protein hydrolysates frequently contain both collagen-associated hydroxyproline (Hyp) and branched-chain amino acids (BCAAs), but the biological consequences of their combination remain unclear. This study tested whether Hyp changes the effects of leucine (Leu), isoleucine (Ile), and valine (Val) on lifespan and healthspan-related phenotypes in Caenorhabditis elegans and whether these treatment effects are accompanied by coordinated microbial and metabolic remodeling. Amino acid concentrations that did not strongly disrupt bacterial food clearance were selected for lifespan, stress-resistance, motility, muscle-integrity, biochemical, microbiome, metabolomic, and transcriptomic analyses. Hyp+BCAA combinations improved lifespan- and healthspan-related phenotypes in a BCAA- and dose-dependent manner. The strongest combined treatments enhanced resistance to thermal and oxidative stress, preserved age-associated motility and muscle structure, reduced oxidative and lipofuscin-associated markers, and increased ATP-related readouts. Multi-omics profiling showed that these direct treatment effects were accompanied by distinct C. elegans-associated microbiota signatures, altered NAD precursor-related metabolites including nicotinic acid ribonucleoside (NaR), and a Leu+Hyp transcriptional response enriched for energy metabolism, proteostasis, and extracellular-matrix remodeling. Integrated microbiome-metabolome analysis identified a positive association between Rhodococcus abundance and NaR levels. These findings demonstrate that, under the tested culture conditions, Hyp+BCAA exposure improves longevity-related phenotypes and identifies microbial composition, NAD precursor metabolism, and host energy homeostasis as candidate, testable mediators.",
+        "doi": "10.1016/j.tjnut.2026.101898",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42933652/",
+        "relevance": 6,
+        "matched": [
+          "amino acid",
+          "protein",
+          "leucine",
+          "food"
+        ]
+      },
+      {
+        "pmid": "42933651",
+        "title": "Maternal Mannan-Oligosaccharide improves intestinal resilience of weanling pigs via enhancing milk-mediated immune transfer.",
+        "journal": "The Journal of nutrition",
+        "journal_issn": "0022-3166",
+        "discipline": "nutrition",
+        "date": "2026-Oct-26",
+        "authors": "Siyu Yuan, Zhenting He, Ronghua Yao et al.",
+        "abstract": "BACKGROUND: Maternal nutrition during late gestation and lactation influences milk composition and early-life intestinal development. Whether maternal mannan-oligosaccharide (MOS) supplementation enhances offspring resilience during weaning remains unclear. OBJECTIVE: The effects of maternal MOS supplementation on sow physiology, milk quality, offspring growth, and intestinal responses to an acute inflammatory challenge were evaluated. METHODS: Sixty sows received a control diet or 800 mg MOS/kg diet from gestation day 85 to lactation day 21 (n = 30/group). Reproductive outcomes (litter size, birth weight, subsequent estrus, insemination, conception, and farrowing) and litter outcomes (survival, daily gain, and weaning weight at 21 d) were recorded. Sow feces were collected on gestation day 109 for microbiota analysis, plasma and colostrum at farrowing and milk on lactation day 14 for antioxidant, inflammatory, nutrient, and immunoglobulin analyses, as applicable. At weaning, 24 piglets from 12 litters received saline or lipopolysaccharide (LPS; 100 μg/kg). Plasma and intestinal tissues were collected 6 h later for antioxidant, morphology, barrier, and inflammation measurements. Mixed models assessed maternal diet and, in piglets, maternal diet × LPS, with litter accounted for. RESULTS: Compared with controls, MOS increased sow lactation feed intake (5.68 vs 5.21 kg/d; P = 0.036), piglet daily gain (224.22 vs 195.35 g/d; P < 0.001), and weaning weight (6.67 vs 5.91 kg; P < 0.001). Colostral fat and IgA were 5.26% vs 3.80% and 5.37 vs 3.00 mg/mL, respectively; day-14 milk fat and IgA were 7.72% vs 5.19% and 0.43 vs 0.19 mg/mL (all P < 0.05). Relative to LPS-challenged controls, maternal MOS increased jejunal occludin protein (0.78 vs 0.44, normalized to β-actin) and decreased jejunal IL-1β (146.31 vs 169.77 pg/mL; both P < 0.05). CONCLUSIONS: Maternal MOS supplementation improved milk-mediated nutritional and immune transfer and enhanced intestinal resilience of offspring during weaning-associated inflammatory stress in piglets.",
+        "doi": "10.1016/j.tjnut.2026.101906",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42933651/",
+        "relevance": 6,
+        "matched": [
+          "nutrition",
+          "nutrient",
+          "protein",
+          "fat",
+          "diet",
+          "supplement"
+        ]
+      },
+      {
+        "pmid": "42926219",
+        "title": "The ascending aorta and vascular profile in recreational masters runners: a cross-sectional study.",
+        "journal": "European journal of applied physiology",
+        "journal_issn": "1439-6319",
+        "discipline": "physiology",
+        "date": "2026-Oct-24",
+        "authors": "Wioletta Sacharczuk, Rafał Dankowski, Dagmara Tritt et al.",
+        "abstract": "PURPOSE: Endurance exercise remodels the large arteries, but whether a recreational training dose is sufficient to induce such remodelling is unclear. Masters recreational runners over 40 years are under-represented in this research. We compared the ascending aortic diameter and vascular profile of these runners with sedentary controls of similar age. METHODS: This cross-sectional study included 42 masters recreational runners (at least 20 km per week for at least one year) and 27 sedentary controls, all over 40 years, free of cardiovascular disease and without bicuspid aortic valve or connective tissue disorder. We measured the ascending aortic diameter and left ventricular function by transthoracic echocardiography, and brachial-ankle pulse wave velocity (baPWV) and the ankle-brachial index (ABI) by oscillometry. Circulating collagen-turnover markers (CTX-I, MMP-2) were assayed. The aortic diameter was compared between groups by regression. RESULTS: The ascending aorta was wider in runners (3.25 vs. 2.90 cm; p = 0.001; Cliff's delta 0.45). The difference persisted after adjustment for age, sex and height (beta 0.31 cm; p = 0.001) and in sensitivity analyses. No aortic diameter reached 4.0 cm; all remained within normal limits. The ABI was higher in runners (1.07 vs. 1.03; p = 0.007), and baPWV did not differ (p = 0.069); both stayed within normal limits. CTX-I and MMP-2 did not differ, and left ventricular function was preserved. CONCLUSION: These findings are consistent with modest, exercise-associated aortic remodelling rather than overt aortopathy in recreational masters runners over 40 years.",
+        "doi": "10.1007/s00421-026-06471-8",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42926219/",
+        "relevance": 6,
+        "matched": [
+          "exercise",
+          "training",
+          "endurance",
+          "sedentary"
+        ]
+      },
+      {
+        "pmid": "42926174",
+        "title": "Corrigendum to \"Early post-operative performance of an anatomically designed hybrid thread interference screw for ACL reconstruction: A comparative study\" [J. Biomech. 135 (2022) 111031].",
+        "journal": "Journal of biomechanics",
+        "journal_issn": "0021-9290",
+        "discipline": "anatomy",
+        "date": "2026-Oct-24",
+        "authors": "Nazanin Daneshvarhashjin, Mahmoud Chizari, Seyed Mohammad Javad Mortazavi et al.",
+        "abstract": "",
+        "doi": "10.1016/j.jbiomech.2026.113576",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42926174/",
+        "relevance": 6,
+        "matched": [
+          "acl",
+          "anatomical",
+          "performance"
         ]
       },
       {
@@ -3042,6 +3270,82 @@
         ]
       },
       {
+        "pmid": "42937338",
+        "title": "A Systematic Review of Food Swap Interventions Used in Grocery Store Settings.",
+        "journal": "Nutrition reviews",
+        "journal_issn": "0029-6643",
+        "discipline": "nutrition",
+        "date": "2026-Oct-27",
+        "authors": "Helena Bentil, Edward Hillier, Oliver Huse et al.",
+        "abstract": "CONTEXT: Food swap interventions provide an approach to influence consumer food choices. However, evidence on their design and effectiveness has not yet been synthesized. OBJECTIVE: This review systematically synthesized the literature on food swap interventions in grocery settings by addressing the following questions: (1) What were the key characteristics of the food swap interventions examined in the literature, and what was their intended purpose? (2) Have food swap interventions been effective in changing behavior? DATA SOURCES, EXTRACTION, AND ANALYSIS: A search of MEDLINE, Scopus, and Web of Science up to January 23, 2025, was conducted to identify food swap intervention trials in grocery settings, with no limits on language or publication year. Covidence was used to screen titles, abstracts, and full-text articles in duplicate. Data were synthesized narratively. RESULTS: Eleven studies, published during 2006-2024, were included in the review. One intervention was implemented in a real grocery store, 3 in real online supermarkets, and 7 in simulated online supermarkets. Most included studies targeted adults with primary or partial responsibility for their household grocery shopping. All the swaps offered healthier alternatives to selected products. Outcomes examined included shopping basket item healthiness, energy content, saturated fatty acid (SFA) content, salt density, and sodium and sugar content. All but 1 study noted evidence that the studied interventions can change behavior. Two studies found significant improvements in overall nutritional quality. Salt/sodium reductions were seen in 2 studies, while reductions in sugar content were seen in 1 study but not in another study. Studies also demonstrated significant reductions in purchased energy content/density, and SFA. CONCLUSION: A range of food swap interventions have been studied, and most of those identified have been found to be effective in improving the healthiness of food purchases. No studies explored the potential of swap interventions to promote sustainable food choices, which could be a topic of future research. SYSTEMATIC REVIEW REGISTRATION: PROSPERO registration No. [CRD42024539803].",
+        "doi": "10.1093/nutrit/nuag151",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42937338/",
+        "relevance": 5,
+        "matched": [
+          "food",
+          "nutrition",
+          "fat"
+        ]
+      },
+      {
+        "pmid": "42933538",
+        "title": "Impact of minimally processed versus milled whole grains on glycaemic control in type 2 diabetes: A 12-week randomised trial.",
+        "journal": "The American journal of clinical nutrition",
+        "journal_issn": "0002-9165",
+        "discipline": "nutrition",
+        "date": "2026-Oct-26",
+        "authors": "Andrew N Reynolds, Fiona Hood, Ella Iosua et al.",
+        "abstract": "BACKGROUND: Whole grains are widely promoted within a healthy diet, with dietary advice encouraging the replacement of refined grains with whole grains. However, data from small trials indicates that milling or processing whole grains may influence the glycaemic response. OBJECTIVE: To identify if clinically relevant HbA1c differs with processed (milled) or less processed (unmilled) whole grain intakes in type 2 diabetes management. METHODS: We conducted a 12-week randomised parallel trial in adults with type 2 diabetes. Participants received free and delivered whole grain foods that differed in degree of processing. Each intervention was of four foods from whole grain wheat, rice, and oats, in sufficient amounts (4.5-9kg per fortnight) to accommodate family size. Participants were advised to replace the grain foods they normally consumed with the provided products. The primary outcome was glycated haemoglobin (HbA1c). All analyses were performed using an intention-to-treat approach, with outcome variables investigated using a generalised linear model. RESULTS: 160 adults with type 2 diabetes (mean age 58.5 ± 11.5 years; BMI 33.7 ± 7.3 kg/m2; HbA1c 56.4 ± 14.3 mmol/mol) were randomised, with 143 (89%) providing end-of-intervention blood samples. HbA1c was lower following the less processed whole grain intervention compared with the more processed whole grain intervention (mean difference -2.2 mmol/mol, 95% CI -4.2, -0.1), despite no change observed in body weight between interventions. Whole grain, refined grain, and nutrient intakes did not differ between groups, with intervention foods providing approximately 20% of dietary energy. Among the secondary or exploratory outcomes, improvements were indicated only in self-reported bowel habits with less processed whole grains. CONCLUSIONS: Less processed whole grain foods were associated with improved glycated haemoglobin compared with more processed whole grain foods in adults with type 2 diabetes. These findings indicate that the degree of grain processing influences metabolic outcomes, support food reformulation, and distinguishing between refined grains, milled whole grains (wholemeal), and intact whole grains in dietary guidance, food marketing and labelling. CLINICAL TRIAL REGISTRY NUMBER AND WEBSITE WHERE IT WAS OBTAINED: ACTRN12622000060741.",
+        "doi": "10.1016/j.ajcnut.2026.101601",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42933538/",
+        "relevance": 5,
+        "matched": [
+          "nutrient",
+          "diet",
+          "dietary",
+          "food",
+          "meal"
+        ]
+      },
+      {
+        "pmid": "42933536",
+        "title": "Almonds and the optimization of immune responses to influenza vaccination, compared to a control snack, in healthy adults: a randomized controlled trial.",
+        "journal": "The American journal of clinical nutrition",
+        "journal_issn": "0002-9165",
+        "discipline": "nutrition",
+        "date": "2026-Oct-26",
+        "authors": "Alice van der Schoot, Alice C Creedon, Noa Argomaniz et al.",
+        "abstract": "BACKGROUND: Certain nutrient supplements enhance immune responses to vaccination; however, no randomized controlled trials (RCTs) have assessed the impact of a whole food. Almonds may benefit immune function through immunoregulatory nutrients and fiber, which interacts with the immune system via the gut microbiota. OBJECTIVE: This study assessed the effect of almonds on the immune response following influenza vaccination, compared to an isocaloric snack, in healthy adults. METHODS: In this RCT, healthy adults (40-64 years) consumed almonds (56 g/d) or an isocaloric control (86 g/d pretzels) for 8 weeks. Participants received seasonal influenza vaccine at week 4. The primary outcome was seroconversion rates for ≥1 strain at week 8. Antigen-specific antibody titers (HI assay) were quantified pre- (week 4) and post-vaccination (week 8), and seroconversion and seroprotection were calculated. The gut microbiota, short-chain fatty acids (SCFAs), stool output and gut symptoms were measured at baseline, midpoint and endpoint. RESULTS: Ninety participants were randomized (mean age 51 years, 73% females). Seroconversion rate for ≥1 strain was high and not significantly different between groups [almond: 38/41 (93%) versus control: 37/39 (95%), P=1.000], nor were strain-specific seroconversion or seroprotection rates. Almonds resulted in higher antibody titers for A/Wisconsin/67/2022 (H1N1) strain, compared to control [geometric mean (95% CI): almond 359 (146, 881) versus control 110 (51, 235)], and greater fold-change for A/Wisconsin/67/2022 (H1N1) [geometric mean fold change (95% CI): almond 18 (7, 48) versus control 4 (3, 7)] and B/Yamagata [almond 10 (6, 16) versus control 5 (3, 7)]. Absolute abundance of Roseburia hominis was significantly higher in the almond group compared to control (q=0.049). There was no effect on SCFAs or stool consistency. CONCLUSIONS: Almonds increased influenza vaccine antibody titers but did not affect seroconversion in a healthy population where vaccines are already highly effective. This trial was pre-registered at clinicaltrials.gov as NCT05515263 (https://clinicaltrials.gov/study/NCT05515263).",
+        "doi": "10.1016/j.ajcnut.2026.101596",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42933536/",
+        "relevance": 5,
+        "matched": [
+          "nutrient",
+          "fat",
+          "supplement",
+          "food",
+          "fiber"
+        ]
+      },
+      {
+        "pmid": "42931958",
+        "title": "Non-recurrent laryngeal nerve with dual branch pattern and merging: a rare anatomical variant encountered during right hemithyroidectomy.",
+        "journal": "Surgical and radiologic anatomy : SRA",
+        "journal_issn": "0930-1038",
+        "discipline": "anatomy",
+        "date": "2026-Oct-26",
+        "authors": "Badriya Yussuf, Haissan Iftikhar",
+        "abstract": "BACKGROUND: The non-recurrent laryngeal nerve (NRLN) is an uncommon anatomical variant that passes directly from the vagus nerve to the larynx without the usual recurrent loop; it occurs on the right side in around one in a hundred individuals and is considerably rarer on the left. Its recognition is central to safe thyroid surgery, because an unanticipated NRLN lies in an unexpected position and is vulnerable to inadvertent injury. We report a right non-recurrent laryngeal nerve with an unusual dual-branch morphology in which the nerve divided and then re-merged before laryngeal entry. CASE PRESENTATION: A woman in her 50s underwent right hemithyroidectomy for a benign, compressive multinodular goitre of the right lobe. Intraoperatively, no recurrent laryngeal nerve was found in the expected tracheo-oesophageal groove; systematic tracing of the vagus nerve within the carotid sheath revealed a right NRLN that divided into a superior and an inferior branch. The two branches followed separate courses and re-merged into a single trunk approximately 10 mm before entering the larynx through the cricothyroid membrane. Both branches were identified and preserved. The patient was extubated uneventfully, demonstrated normal vocal cord function, and made an uncomplicated recovery with no voice change at early or later follow-up. CONCLUSION: Dual-branch NRLN in which the branches re-merge before laryngeal entry is a pattern we have not found previously described; while extra-laryngeal division of a non-recurrent nerve has been reported, the subsequent re-merging adds complexity to nerve identification and preservation. Awareness that a non-recurrent nerve may branch and re-merge should prompt complete tracing of every fascicle followed from the vagus during thyroid surgery.",
+        "doi": "10.1007/s00276-026-03999-4",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42931958/",
+        "relevance": 5,
+        "matched": [
+          "anatomical",
+          "morphology",
+          "injury"
+        ]
+      },
+      {
         "pmid": "42920397",
         "title": "Suction-feeding performance in invasive alien giant salamanders within the functional framework of Andrias.",
         "journal": "Journal of anatomy",
@@ -3185,6 +3489,23 @@
         ]
       },
       {
+        "pmid": "42956726",
+        "title": "Response to Horvath Comment on Leo and Mujika: Agreement Between Lab- and Field-Derived Sprint Power Reserve in U23 Elite Cyclists.",
+        "journal": "International journal of sports physiology and performance",
+        "journal_issn": "1555-0265",
+        "discipline": "physiology",
+        "date": "2026-Oct-29",
+        "authors": "Peter Leo, Iñigo Mujika",
+        "abstract": "",
+        "doi": "10.1123/ijspp.2026-0462",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42956726/",
+        "relevance": 4,
+        "matched": [
+          "sprint",
+          "power"
+        ]
+      },
+      {
         "pmid": "42955099",
         "title": "On the difficulty of extrapolating pulmonary alterations from short duration exercise to mountain ultra-marathons : Reply to: \"Rethinking the airway epithelial integrity and the intensity-duration dissociation in mountain ultra-marathon pulmonary responses\".",
         "journal": "European journal of applied physiology",
@@ -3269,6 +3590,42 @@
           "training",
           "heart rate",
           "oxygen"
+        ]
+      },
+      {
+        "pmid": "42933537",
+        "title": "Metabolic phenotyping identifies early interindividual variation in infant energy expenditure with implications for obesity risk.",
+        "journal": "The American journal of clinical nutrition",
+        "journal_issn": "0002-9165",
+        "discipline": "nutrition",
+        "date": "2026-Oct-26",
+        "authors": "Emily W Flanagan, Abby D Altazan, Leanne M Redman",
+        "abstract": "BACKGROUND: Pediatric obesity is a major public health crisis. Early identification of metabolic traits that increase individual risk are emerging. As such, identification of variability in early energy expenditure would reveal the need for precision nutritional approaches from birth. OBJECTIVE: To evaluate the interindividual variability in components of energy expenditure for the purpose of understanding early nutritional considerations in very young infants. METHODS: Infant participants (<3 months of age) underwent extensive energy expenditure phenotyping using a combination of doubly labeled water for total daily energy expenditure and a novel infant metabolic chamber for sleeping energy expenditure. Descriptive statistics, intraclass correlation coefficients, and univariable and multivariable linear regression analyses were used to assess reliability and characterize variability, predictors, and phenotypes of energy expenditure. We identified interindividual variability in total, mass-adjusted, and fat-free mass adjusted energy expenditures. Energy phenotypes (thrifty and spendthrift) were assigned based on the residuals between measured and predicted energy expenditure from metabolic mass. Discrepancies between measured energy expenditure and predicted by national dietary recommendations for infants (2023 DRI) were evaluated. RESULTS: Total daily and sleeping energy expenditures were 368±60 kcal/d and 250±60 kcal/d, respectively. Energy expenditure related to activity accounted for 21±9% of total measured. Age (r=.59), weight (r=.83), length (r=.75), and fat-free mass (r=.82) were positively associated with sleeping energy expenditure. We identified 40% of measured infants with a thrifty energy phenotype, classified as having sleeping energy expenditure under that predicted by cohort age, sex, and fat and fat-free mass. Mean prediction error of the 2023 DRI from our cohort was 10±7% and was positively associated with the amount of energy expenditure attributed to activity. CONCLUSIONS: These findings warrant further comprehensive metabolic phenotyping studies in young infants to understand how early energy expenditure tracks through the life course and influences obesity risk as well as the thorough evaluation and refinement of infant nutritional recommendations.",
+        "doi": "10.1016/j.ajcnut.2026.101600",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42933537/",
+        "relevance": 4,
+        "matched": [
+          "nutrition",
+          "fat",
+          "diet",
+          "dietary"
+        ]
+      },
+      {
+        "pmid": "42929129",
+        "title": "Large Language Models and Applied Surgical Anatomy: Evaluation of Anatomical Reasoning in Expert-Derived Plastic Surgery Scenarios.",
+        "journal": "Clinical anatomy (New York, N.Y.)",
+        "journal_issn": "0897-3806",
+        "discipline": "anatomy",
+        "date": "2026-Oct-26",
+        "authors": "Menekşe Kastamoni Başkan, Süleyman Çeçen, Yadigar Kastamoni",
+        "abstract": "Large language models (LLMs) are increasingly being integrated into medical education, research, and clinical decision-support applications; however, their ability to apply anatomical knowledge in clinically relevant surgical scenarios remains insufficiently studied. This study evaluated and compared the performance of six contemporary LLMs (ChatGPT, Gemini, Claude, DeepSeek, Copilot, and Manus) using 25 expert-derived applied surgical anatomy scenarios relevant to plastic surgery. Scenarios were developed by an expert panel consisting of one associate professor of anatomy and two plastic surgeons. Responses were generated using a standardized prompt and assessed with a structured scoring rubric evaluating anatomical accuracy, clinical reasoning, completeness, and safety, with a maximum score of 10 points per question. Critical errors were additionally assessed. Significant differences in overall performance were observed among models (Friedman χ2 = 43.51, p < 0.001). ChatGPT achieved the maximum aggregate score (250/250), followed by Gemini (248/250), DeepSeek (241/250), Copilot (240/250), Claude (235/250), and Manus (219/250). Critical errors were infrequent and were confined to a reconstructive vascular physiology scenario: DeepSeek, Claude, and Manus each demonstrated one observed critical error, whereas ChatGPT, Gemini, and Copilot demonstrated none. Although all evaluated models demonstrated excellent performance, clinically significant anatomical misconceptions persisted despite high aggregate scores. These findings demonstrate strong performance by the tested LLMs on this specific scenario-based benchmark, while also identifying clinically meaningful anatomical errors in a subset of responses. Future evaluations should focus not only on overall accuracy but also on clinically meaningful error patterns that may influence surgical decision-making. Importantly, substantial ceiling effects limited discrimination among high-performing models, and the findings should therefore be interpreted as performance on this specific benchmark rather than as evidence of a general hierarchy of anatomical reasoning capability.",
+        "doi": "10.1002/ca.70243",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42929129/",
+        "relevance": 4,
+        "matched": [
+          "anatomical",
+          "performance"
         ]
       },
       {
@@ -3494,6 +3851,24 @@
         ]
       },
       {
+        "pmid": "42934367",
+        "title": "The internal pudendal artery: a narrative review of proximal origin, accessory supply, distal branches and clinical anatomy.",
+        "journal": "Surgical and radiologic anatomy : SRA",
+        "journal_issn": "0930-1038",
+        "discipline": "anatomy",
+        "date": "2026-Oct-26",
+        "authors": "Mugurel Constantin Rusu, Iulian Brezean",
+        "abstract": "BACKGROUND: Evidence on the internal pudendal artery (IPA) is distributed across studies of internal iliac artery branching, accessory pudendal arteries, distal perineal branches, perforators, anastomoses and clinical applications. OBJECTIVE: To map human anatomical, imaging and surgical evidence on IPA origin, branching, accessory supply and clinically relevant variation. METHODS: This is a narrative review of the human anatomy of the internal pudendal artery. Relevant cadaveric, imaging, angiographic and surgical literature was identified through iterative database searching (PubMed/MEDLINE, Web of Science and Google Scholar), citation chasing, hand-searching of historical anatomical sources, and standard reference works on anatomical variation. Reports were organised by anatomical domain. Numerical findings were summarised as study-level results and crude aggregate counts; no meta-analysis was performed. RESULTS: The charted evidence base comprises 28 studies across 30 evidence-domain assignments, complemented by additional historical, female and clinical reports discussed narratively. Eleven proximal branching studies contributed 1,403 pelvic sides or halves. The crude distribution was 62.0% for a separate superior gluteal artery with a common inferior gluteal-IPA trunk, 20.0% for separate superior gluteal, inferior gluteal and pudendal arteries, 12.5% for a common superior-inferior gluteal trunk with a separate IPA, 3.2% for a three-artery common trunk, 1.4% for a common superior gluteal-IPA trunk and 0.8% unclassified. Five studies addressed accessory pudendal arteries, six addressed distal branches, perforators, morphometry or anastomoses, and eight provided clinical or contextual evidence. Accessory pudendal artery estimates varied substantially with the detection method. CONCLUSION: Read as a single arterial axis that continues beyond the pelvis into the ischioanal fossa and perineum, the IPA unifies several otherwise separate literatures - proximal branching, accessory supply, distal branches and clinical anatomy - that involve different units of analysis and detection methods. Future systematic reviews should examine proximal branching, accessory supply and selected distal outcomes separately.",
+        "doi": "10.1007/s00276-026-04042-2",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42934367/",
+        "relevance": 3,
+        "matched": [
+          "pelvic",
+          "glute",
+          "anatomical"
+        ]
+      },
+      {
         "pmid": "42929332",
         "title": "Bioerosion traces in bones reveal an increase in ethological diversity in the insect exploitation of carcasses in the late Triassic.",
         "journal": "Anatomical record (Hoboken, N.J. : 2007)",
@@ -3557,6 +3932,22 @@
         "matched": [
           "hip",
           "neck"
+        ]
+      },
+      {
+        "pmid": "42952086",
+        "title": "Making sense of touch: Spatial tactile cues promote efficient visuo-somatosensory integration and restore motor accuracy under sensory conflict.",
+        "journal": "The Journal of physiology",
+        "journal_issn": "0022-3751",
+        "discipline": "physiology",
+        "date": "2026-Oct-28",
+        "authors": "Maria Evangelia Vlachou, Eva Lafaverges, Laurence Mouchnino et al.",
+        "abstract": "Effective interaction with complex environments relies on the integration of somatosensory and visual signals into coherent spatial representations of the body in external space. When these signals conflict, as during goal-directed hand movements under mirror-reversed visual feedback, motor performance deteriorates. Despite this conflict, the visual mapping between the hand and the environment remains preserved, and visual information typically facilitates motor performance, whereas tactile feedback impairs it. Here, we tested whether providing tactile input with explicit spatial structure renders visuo-somatosensory integration functionally relevant and stabilizes motor behaviour under sensory conflict. Healthy adults performed a mirror-tracing task, tracing a shape's contour with the index finger while tactile feedback conveyed either motion-related cues alone or additional discrete spatial landmarks aligned with the outline. Spatially structured tactile cues preserved movement accuracy and smoothness relative to motion-related tactile input, indicating more effective online motor control. EEG source analyses further revealed that, when spatial tactile cues were present, somatosensory activity increased and functional connectivity was largely restricted to sensorimotor areas. In contrast, when tactile cues did not convey spatial information, sensory conflict was associated with widespread reductions in cortical activity, including in somatosensory and parietal areas, and with a diffuse functional connectivity pattern consistent with elevated sensorimotor uncertainty. Together, these findings indicate that providing spatial structure to tactile input can mitigate the detrimental effects of visuo-somatosensory conflict on motor performance and support more efficient integration of visual and somatosensory information during action. KEY POINTS: Accurate movements depend on combining visual and somatosensory information to estimate the position of the body in external space. When these signals conflict, motor performance usually deteriorates and tactile feedback can become disruptive. We tested whether tactile feedback becomes useful for movement control when it provides explicit spatial landmarks, rather than only motion-related information from finger-surface contact. During a tracing task under visuo-somatosensory conflict, spatially structured tactile cues preserved movement accuracy and smoothness compared with when touch conveyed motion cues alone. Spatial tactile cues were associated with increased somatosensory cortical activity and a more spatially restricted pattern of functional coupling within sensorimotor networks, whereas their absence was associated with reduced somatosensory and parietal activity and a more distributed connectivity profile. Spatial structure in touch promotes multisensory integration, helping stabilize motor control under sensory conflict and highlighting how tactile cue design may improve sensorimotor function.",
+        "doi": "10.1113/JP291358",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42952086/",
+        "relevance": 2,
+        "matched": [
+          "performance"
         ]
       },
       {
@@ -3910,5 +4301,5 @@
       "focus": "营养综述、证据总结"
     }
   ],
-  "built_at": "2026-10-31 15:04"
+  "built_at": "2026-10-31 07:40"
 }
